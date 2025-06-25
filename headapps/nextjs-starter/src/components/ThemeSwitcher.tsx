@@ -7,16 +7,8 @@ export const Default = (): JSX.Element => {
 
   useEffect(() => {
     const storedTheme = sessionStorage.getItem('theme');
-
-    if (storedTheme === 'dark') {
-      setIsDark(true);
-    } else if (storedTheme === 'light') {
-      setIsDark(false);
-    } else {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setIsDark(prefersDark);
-      sessionStorage.setItem('theme', prefersDark ? 'dark' : 'light');
-    }
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setIsDark(storedTheme === 'dark' || prefersDark);
   }, []);
 
   useEffect(() => {
@@ -25,24 +17,24 @@ export const Default = (): JSX.Element => {
   }, [isDark]);
 
   return (
-    <label className="inline-block leading-0">
-      <label htmlFor="theme-switcher" className="sr-only">
-        Switch theme
-      </label>
-      <input
-        name="theme-switcher"
-        id="theme-switcher"
-        type="checkbox"
-        checked={isDark}
-        onChange={() => setIsDark((prev) => !prev)}
-        className="peer opacity-0 w-0 h-0"
-      />
-      <span
-        className={`relative inline-block w-12 h-6 rounded-xl bg-foreground border border-foreground cursor-pointer
-          after:content-[''] after:absolute after:h-5 after:w-5 after:left-px after:bottom-1/2 after:translate-y-1/2
-          after:bg-background after:rounded-full after:transition-transform after:duration-400
-          peer-checked:bg-foreground-dark peer-checked:after:translate-x-6 peer-checked:after:bg-background-dark`}
-      />
-    </label>
+    <div className="inline-block">
+      <button
+        aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+        onClick={() => setIsDark(!isDark)}
+        className={`
+          w-13 h-7 p-[2px] rounded-full text-left
+          bg-background-dark dark:bg-background
+          transition-colors duration-300
+        `}
+      >
+        <span
+          className={`
+            inline-block w-6 h-6 rounded-full
+            bg-background dark:bg-background-dark dark:translate-x-6
+            transition-all duration-300
+          `}
+        />
+      </button>
+    </div>
   );
 };
