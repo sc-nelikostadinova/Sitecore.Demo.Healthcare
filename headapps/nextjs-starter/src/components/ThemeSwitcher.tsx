@@ -23,7 +23,7 @@ export const Default = (): JSX.Element => {
         onClick={() => setIsDark(!isDark)}
         className={`
           w-13 h-7 p-[2px] rounded-full text-left
-          bg-background-dark dark:bg-background
+          bg-foreground dark:bg-foreground-dark
           transition-colors duration-300
         `}
       >
