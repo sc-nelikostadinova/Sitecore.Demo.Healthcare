@@ -3,15 +3,17 @@
 import React, { useEffect, useState } from 'react';
 
 export const Default = (): JSX.Element => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState<boolean | null>(null);
 
   useEffect(() => {
     const storedTheme = sessionStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setIsDark(storedTheme === 'dark' || prefersDark);
+    setIsDark(storedTheme ? storedTheme === 'dark' : prefersDark);
   }, []);
 
   useEffect(() => {
+    if (isDark === null) return;
+
     document.body.classList.toggle('dark', isDark);
     sessionStorage.setItem('theme', isDark ? 'dark' : 'light');
   }, [isDark]);
