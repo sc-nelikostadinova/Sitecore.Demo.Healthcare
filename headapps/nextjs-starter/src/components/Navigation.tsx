@@ -121,6 +121,8 @@ const NavigationList = (props: NavigationProps) => {
     ' '
   )}`;
 
+  const isRootItem = props.fields.Styles.includes('level0');
+
   let children: JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
     children = props.fields.Children.map((element: Fields, index: number) => (
@@ -136,9 +138,8 @@ const NavigationList = (props: NavigationProps) => {
   return (
     <li
       className={`${classNameList}
-        relative flex flex-col gap-x-8 xl:gap-x-14 gap-y-4 ${
-          props.relativeLevel === 1 ? 'lg:flex-row' : ''
-        } ${active ? 'active' : ''} uppercase
+        relative flex flex-col ${isRootItem ? 'lg:flex-row' : ''}
+        gap-x-8 xl:gap-x-14 gap-y-4 ${active ? 'active' : ''} uppercase
       `}
       key={props.fields.Id}
       tabIndex={0}
@@ -152,7 +153,7 @@ const NavigationList = (props: NavigationProps) => {
         >
           {getNavigationText(props)}
         </Link>
-        {children.length > 0 && props.relativeLevel !== 1 ? (
+        {children.length > 0 && !isRootItem ? (
           <div
             className="w-6 h-6 flex justify-center items-center"
             onClick={() => setActive((a) => !a)}
@@ -171,7 +172,7 @@ const NavigationList = (props: NavigationProps) => {
       {children.length > 0 ? (
         <ul
           className={`flex flex-col gap-x-8 xl:gap-x-14 gap-y-4 ${
-            props.relativeLevel === 1
+            isRootItem
               ? 'lg:flex-row'
               : `lg:absolute top-full -left-4 pl-4 lg:p-4 bg-background dark:bg-background-dark ${
                   active ? 'block' : 'hidden'
