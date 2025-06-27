@@ -19,19 +19,19 @@ export const Default = (): JSX.Element => {
   }, [isDark]);
 
   return (
-    <div className="inline-block">
+    <div className="flex">
       <button
         aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
         onClick={() => setIsDark(!isDark)}
         className={`
-          w-13 h-7 p-0.5 rounded-full text-left
+          w-12 h-6 p-0.5 rounded-full text-left
           bg-foreground dark:bg-foreground-dark
           transition-colors duration-300
         `}
       >
         <span
           className={`
-            inline-block w-6 h-6 rounded-full
+            inline-block w-5 h-5 rounded-full
             bg-background dark:bg-background-dark dark:translate-x-6
             transition-all duration-300
           `}
