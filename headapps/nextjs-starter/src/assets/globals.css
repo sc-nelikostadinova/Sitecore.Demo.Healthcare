@@ -171,3 +171,9 @@
     @apply cursor-pointer;
   }
 }
+
+@layer components {
+  .social-icon {
+    @apply flex justify-center items-center w-8 h-8 border border-foreground dark:border-foreground-dark rounded-full;
+  }
+}
