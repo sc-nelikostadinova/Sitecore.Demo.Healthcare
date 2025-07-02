@@ -6,6 +6,8 @@ import {
   TextField,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faChevronDown, faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 interface Fields {
   Id: string;
@@ -88,21 +90,26 @@ export const Default = (props: NavigationProps): JSX.Element => {
     ));
 
   return (
-    <div className={`component navigation ${styles}`} id={id ? id : undefined}>
-      <label className="menu-mobile-navigate-wrapper">
-        <input
-          type="checkbox"
-          className="menu-mobile-navigate"
-          checked={isOpenMenu}
-          onChange={() => handleToggleMenu()}
-        />
-        <div className="menu-humburger" />
-        <div className="component-content">
-          <nav>
-            <ul className="clearfix">{list}</ul>
-          </nav>
-        </div>
-      </label>
+    <div className={`component navigation text-lg font-heading ${styles}`} id={id ? id : undefined}>
+      <div
+        className="lg:hidden flex justify-center items-center w-6 h-6 cursor-pointer z-50"
+        onClick={() => handleToggleMenu()}
+      >
+        <FontAwesomeIcon icon={isOpenMenu ? faTimes : faBars} width={16} height={16} />
+      </div>
+
+      <div className="component-content">
+        <nav
+          className={`${
+            isOpenMenu ? 'flex' : 'hidden'
+          } absolute top-full left-0 right-0 bg-background dark:bg-background-dark
+          lg:static lg:flex`}
+        >
+          <ul className={`container flex flex-col lg:flex-row gap-x-8 xl:gap-x-14 pb-8 lg:pb-0`}>
+            {list}
+          </ul>
+        </nav>
+      </div>
     </div>
   );
 };
@@ -113,6 +120,8 @@ const NavigationList = (props: NavigationProps) => {
   const classNameList = `${props?.fields?.Styles.concat('rel-level' + props.relativeLevel).join(
     ' '
   )}`;
+
+  const isRootItem = props.fields.Styles.includes('level0');
 
   let children: JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
@@ -127,20 +136,52 @@ const NavigationList = (props: NavigationProps) => {
   }
 
   return (
-    <li className={`${classNameList} ${active ? 'active' : ''}`} key={props.fields.Id} tabIndex={0}>
-      <div
-        className={`navigation-title ${children.length ? 'child' : ''}`}
-        onClick={() => setActive(() => !active)}
-      >
+    <li
+      className={`${classNameList}
+        relative flex flex-col ${isRootItem ? 'lg:flex-row' : ''}
+        gap-x-8 xl:gap-x-14 gap-y-4 ${active ? 'active' : ''} uppercase
+      `}
+      key={props.fields.Id}
+      tabIndex={0}
+    >
+      <div className="flex items-center gap-1">
         <Link
           field={getLinkField(props)}
           editable={sitecoreContext.pageEditing}
           onClick={props.handleClick}
+          className="whitespace-nowrap"
         >
           {getNavigationText(props)}
         </Link>
+        {children.length > 0 && !isRootItem ? (
+          <div
+            className="w-6 h-6 flex justify-center items-center"
+            onClick={() => setActive((a) => !a)}
+          >
+            <FontAwesomeIcon
+              icon={active ? faChevronUp : faChevronDown}
+              width={16}
+              height={16}
+              className="cursor-pointer"
+            />
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
-      {children.length > 0 ? <ul className="clearfix">{children}</ul> : null}
+      {children.length > 0 ? (
+        <ul
+          className={`flex flex-col gap-x-8 xl:gap-x-14 gap-y-4 ${
+            isRootItem
+              ? 'lg:flex-row'
+              : `lg:absolute top-full -left-4 pl-4 lg:p-4 bg-background dark:bg-background-dark ${
+                  active ? 'block' : 'hidden'
+                }`
+          }`}
+        >
+          {children}
+        </ul>
+      ) : null}
     </li>
   );
 };
