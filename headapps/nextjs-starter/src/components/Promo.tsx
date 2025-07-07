@@ -44,7 +44,7 @@ const PromoWrapper = ({
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div
+    <section
       className={`component promo relative bg-background-secondary dark:bg-background-secondary-dark py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
       id={id ? id : undefined}
     >
@@ -61,7 +61,7 @@ const PromoWrapper = ({
           <div className="lg:[.promo-reversed_&]:order-first">{children}</div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
