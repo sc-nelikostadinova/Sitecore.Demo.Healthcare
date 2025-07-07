@@ -10,6 +10,8 @@
 @source inline("{,sm:,md:,lg:,xl:,2xl:}{m,p}{t,b,l,r,x,y}-{0,auto}");
 @source inline("{,sm:,md:,lg:,xl:,2xl:}{block,inline-block,inline,flex,inline-flex,grid,inline-grid,contents,table,table-row,table-cell,table-caption,table-column,table-column-group,table-footer-group,table-header-group,table-row-group,flow-root,hidden}");
 @source inline("bg-{cover,fixed,scroll}");
+@source inline("{top,bottom}-{0}");
+@source inline("{rotate}-{0, 180}");
 
 @theme {
   --color-background: #ffffff;
@@ -32,11 +34,17 @@
 
   --font-heading: var(--font-heading);
   --font-body: var(--font-body);
+
+  --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
 }
 
 @utility container {
   margin-inline: auto;
   padding-inline: 1rem;
+
+  @media (min-width: 96rem) {
+    max-width: 89.5rem;
+  }
 }
 
 @utility offset-* {
@@ -143,27 +151,27 @@
   }
 
   h1 {
-    @apply text-6xl;
+    @apply text-5xl lg:text-6xl;
   }
 
   h2 {
-    @apply text-5xl;
+    @apply text-4xl lg:text-5xl;
   }
 
   h3 {
-    @apply text-4xl;
+    @apply text-3xl lg:text-4xl;
   }
 
   h4 {
-    @apply text-3xl;
+    @apply text-2xl lg:text-3xl;
   }
 
   h5 {
-    @apply text-2xl;
+    @apply text-xl lg:text-2xl;
   }
 
   h6 {
-    @apply text-xl;
+    @apply text-lg lg:text-xl;
   }
 
   button:not(:disabled),
@@ -175,5 +183,19 @@
 @layer components {
   .social-icon {
     @apply flex justify-center items-center w-8 h-8 border border-foreground dark:border-foreground-dark rounded-full;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-4 px-6 py-2 rounded-lg text-lg lg:text-xl text-background font-heading font-bold bg-foreground;
+  }
+
+  .btn-icon {
+    svg {
+      @apply w-4 h-4;
+    }
+  }
+
+  .promo .promo-content p {
+    @apply text-lg mb-5;
   }
 }

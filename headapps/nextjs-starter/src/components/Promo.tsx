@@ -1,83 +1,100 @@
+'use client';
+
 import React from 'react';
 import {
   NextImage as JssImage,
   Link as JssLink,
+  Text as JssText,
   RichText as JssRichText,
   ImageField,
   Field,
   LinkField,
+  RichTextField,
+  ComponentRendering,
+  ComponentParams,
+  Placeholder,
+  withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import StripedBlob from './shapes/StripedBlob';
+import CurvedClip from './shapes/CurvedClip';
+import { isEnabled } from 'src/helpers/isEnabled';
 
 interface Fields {
-  PromoIcon: ImageField;
-  PromoText: Field<string>;
+  PromoImage: ImageField;
+  PromoTitle: Field<string>;
+  PromoText: RichTextField;
   PromoLink: LinkField;
-  PromoText2: Field<string>;
 }
 
 type PromoProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const PromoDefaultComponent = (props: PromoProps): JSX.Element => (
-  <div className={`component promo ${props?.params?.styles}`}>
-    <div className="component-content">
-      <span className="is-empty-hint">Promo</span>
+const PromoWrapper = ({
+  children,
+  props,
+}: {
+  children: React.ReactNode;
+  props: PromoProps;
+}): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <div
+      className={`component promo relative bg-background-secondary dark:bg-background-secondary-dark py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
+      id={id ? id : undefined}
+    >
+      {isEnabled(props.params.CurvedTop) && <CurvedClip pos="top" />}
+      {isEnabled(props.params.CurvedBottom) && <CurvedClip pos="bottom" />}
+      {isEnabled(props.params.BlobAccent) && (
+        <StripedBlob className="absolute top-0 left-0 lg:left-4 w-128 max-w-full sm:max-w-1/2 lg:max-w-1/3 z-0" />
+      )}
+      <div className="container relative z-10">
+        <div className="grid gap-12 items-center lg:grid-cols-2">
+          <div className="aspect-square rounded-lg shadow-soft overflow-hidden">
+            <JssImage field={props.fields.PromoImage} className="w-full h-full object-cover" />
+          </div>
+          <div className="lg:[.promo-reversed_&]:order-first">{children}</div>
+        </div>
+      </div>
     </div>
-  </div>
-);
-
-export const Default = (props: PromoProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  if (props.fields) {
-    return (
-      <div className={`component promo ${props?.params?.styles}`} id={id ? id : undefined}>
-        <div className="component-content">
-          <div className="field-promoicon">
-            <JssImage field={props.fields.PromoIcon} />
-          </div>
-          <div className="promo-text">
-            <div>
-              <div className="field-promotext">
-                <JssRichText field={props.fields.PromoText} />
-              </div>
-            </div>
-            <div className="field-promolink">
-              <JssLink field={props.fields.PromoLink} />
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return <PromoDefaultComponent {...props} />;
+  );
 };
 
-export const WithText = (props: PromoProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  if (props.fields) {
-    return (
-      <div className={`component promo ${props?.params?.styles}`} id={id ? id : undefined}>
-        <div className="component-content">
-          <div className="field-promoicon">
-            <JssImage field={props.fields.PromoIcon} />
-          </div>
-          <div className="promo-text">
-            <div>
-              <div className="field-promotext">
-                <JssRichText className="promo-text" field={props.fields.PromoText} />
-              </div>
-            </div>
-            <div className="field-promotext">
-              <JssRichText className="promo-text" field={props.fields.PromoText2} />
-            </div>
-          </div>
-        </div>
+const DefaultPromo = (props: PromoProps): JSX.Element => {
+  return (
+    <PromoWrapper props={props}>
+      <h2>
+        <JssText field={props.fields.PromoTitle} />
+      </h2>
+      <div className="promo-content mb-10">
+        <JssRichText field={props.fields.PromoText} />
       </div>
-    );
-  }
-
-  return <PromoDefaultComponent {...props} />;
+      <JssLink field={props.fields.PromoLink} className="btn btn-icon">
+        {props.fields?.PromoLink?.value?.text}
+        <FontAwesomeIcon icon={faArrowRight} />
+      </JssLink>
+    </PromoWrapper>
+  );
 };
+
+const WithPlaceholderPromo = (props: PromoProps): JSX.Element => {
+  return (
+    <PromoWrapper props={props}>
+      <h2>
+        <JssText field={props.fields.PromoTitle} />
+      </h2>
+      <Placeholder
+        name={`promo-content-${props?.params?.DynamicPlaceholderId}`}
+        rendering={props.rendering}
+      />
+    </PromoWrapper>
+  );
+};
+
+export const Default = withDatasourceCheck()<PromoProps>(DefaultPromo);
+export const WithPlaceholder = withDatasourceCheck()<PromoProps>(WithPlaceholderPromo);
