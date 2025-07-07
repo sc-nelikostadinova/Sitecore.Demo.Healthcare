@@ -7,6 +7,7 @@ import {
   ComponentRendering,
   ComponentParams,
   Placeholder,
+  withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -25,7 +26,7 @@ type HeaderProps = {
   fields: Fields;
 };
 
-export const Default = (props: HeaderProps): JSX.Element => {
+export const DefaultHeader = (props: HeaderProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
@@ -79,3 +80,5 @@ export const Default = (props: HeaderProps): JSX.Element => {
     </section>
   );
 };
+
+export const Default = withDatasourceCheck()<HeaderProps>(DefaultHeader);
