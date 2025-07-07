@@ -13,6 +13,7 @@ import {
   Placeholder,
   Field,
   RichTextField,
+  withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
@@ -37,7 +38,7 @@ type FooterProps = {
   fields: Fields;
 };
 
-export const Default = (props: FooterProps): JSX.Element => {
+const DefaultFooter = (props: FooterProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   const isTopSectionVisible = props.params?.DisplayOptions !== 'Hide Top Section';
@@ -103,9 +104,11 @@ export const Default = (props: FooterProps): JSX.Element => {
       {isBottomSectionVisible && (
         <div className="container py-4">
           <div className="flex flex-col lg:flex-row lg:items-center gap-4">
-            <p className="mr-auto">
-              <JssText field={props.fields.Copyright} />
-            </p>
+            <div className="mr-auto">
+              <p>
+                <JssText field={props.fields.Copyright} />
+              </p>
+            </div>
 
             <div className="flex flex-wrap gap-4 lg:mx-8">
               <JssLink field={props.fields.TermsOfUse} />
@@ -129,3 +132,5 @@ export const Default = (props: FooterProps): JSX.Element => {
     </section>
   );
 };
+
+export const Default = withDatasourceCheck()<FooterProps>(DefaultFooter);
