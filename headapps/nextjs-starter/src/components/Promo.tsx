@@ -54,7 +54,7 @@ const PromoWrapper = ({
         <StripedBlob className="absolute top-0 left-0 lg:left-4 lg:[.promo-reversed_&]:left-auto lg:[.promo-reversed_&]:right-4 w-128 max-w-full sm:max-w-1/2 lg:max-w-1/3 z-0" />
       )}
       <div className="container relative z-10">
-        <div className="grid gap-12 items-center lg:grid-cols-2">
+        <div className="grid gap-x-24 gap-y-12 items-center lg:grid-cols-2">
           <div className="aspect-square rounded-lg shadow-soft overflow-hidden">
             <JssImage field={props.fields.PromoImage} className="w-full h-full object-cover" />
           </div>
