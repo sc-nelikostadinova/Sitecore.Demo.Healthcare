@@ -51,7 +51,7 @@ const PromoWrapper = ({
       {isEnabled(props.params.CurvedTop) && <CurvedClip pos="top" />}
       {isEnabled(props.params.CurvedBottom) && <CurvedClip pos="bottom" />}
       {isEnabled(props.params.BlobAccent) && (
-        <StripedBlob className="absolute top-0 left-0 lg:left-4 w-128 max-w-full sm:max-w-1/2 lg:max-w-1/3 z-0" />
+        <StripedBlob className="absolute top-0 left-0 lg:left-4 lg:[.promo-reversed_&]:left-auto lg:[.promo-reversed_&]:right-4 w-128 max-w-full sm:max-w-1/2 lg:max-w-1/3 z-0" />
       )}
       <div className="container relative z-10">
         <div className="grid gap-12 items-center lg:grid-cols-2">
