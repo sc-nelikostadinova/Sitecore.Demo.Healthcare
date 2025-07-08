@@ -13,14 +13,14 @@ import { Mulish, Noto_Sans } from 'next/font/google';
 const publicUrl = config.publicUrl;
 
 const heading = Mulish({
-  weight: ['400', '500', '600'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-heading',
   subsets: ['latin', 'latin-ext'],
   display: 'swap',
 });
 
 const body = Noto_Sans({
-  weight: ['400', '500', '600'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-body',
   subsets: ['latin', 'latin-ext'],
   display: 'swap',
