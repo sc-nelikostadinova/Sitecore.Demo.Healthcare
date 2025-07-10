@@ -176,7 +176,7 @@ const NavigationList = (props: NavigationProps) => {
               ? 'lg:flex-row'
               : `lg:absolute top-full -left-4 pl-4 lg:p-4 bg-background dark:bg-background-dark ${
                   active ? 'block' : 'hidden'
-                }`
+                } z-100`
           }`}
         >
           {children}

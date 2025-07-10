@@ -71,9 +71,8 @@ const DefaultPromo = (props: PromoProps): JSX.Element => {
       <h2>
         <JssText field={props.fields.PromoTitle} />
       </h2>
-      <div className="promo-content mb-10">
-        <JssRichText field={props.fields.PromoText} />
-      </div>
+      <JssRichText className="text-lg mb-10" field={props.fields.PromoText} />
+
       <JssLink field={props.fields.PromoLink} className="btn btn-icon">
         {props.fields?.PromoLink?.value?.text}
         <FontAwesomeIcon icon={faArrowRight} />
