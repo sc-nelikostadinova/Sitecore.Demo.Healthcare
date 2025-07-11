@@ -10,7 +10,7 @@
 @source inline("{,sm:,md:,lg:,xl:,2xl:}{m,p}{t,b,l,r,x,y}-{0,auto}");
 @source inline("{,sm:,md:,lg:,xl:,2xl:}{block,inline-block,inline,flex,inline-flex,grid,inline-grid,contents,table,table-row,table-cell,table-caption,table-column,table-column-group,table-footer-group,table-header-group,table-row-group,flow-root,hidden}");
 @source inline("bg-{cover,fixed,scroll}");
-@source inline("{top,bottom}-{0}");
+@source inline("{-}{top,bottom}-{0,px}");
 @source inline("{rotate}-{0, 180}");
 
 @theme {
