@@ -103,7 +103,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
           className={`${
             isOpenMenu ? 'flex' : 'hidden'
           } absolute top-full left-0 right-0 bg-background dark:bg-background-dark
-          lg:static lg:flex`}
+          lg:static lg:flex z-100`}
         >
           <ul className={`container flex flex-col lg:flex-row gap-x-8 xl:gap-x-14 pb-8 lg:pb-0`}>
             {list}
@@ -176,7 +176,7 @@ const NavigationList = (props: NavigationProps) => {
               ? 'lg:flex-row'
               : `lg:absolute top-full -left-4 pl-4 lg:p-4 bg-background dark:bg-background-dark ${
                   active ? 'block' : 'hidden'
-                }`
+                } z-100`
           }`}
         >
           {children}

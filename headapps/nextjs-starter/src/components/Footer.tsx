@@ -45,10 +45,10 @@ const DefaultFooter = (props: FooterProps): JSX.Element => {
   const isBottomSectionVisible = props.params?.DisplayOptions !== 'Hide Bottom Section';
 
   return (
-    <section className={`relative ${props.params.styles}`} id={id ? id : undefined}>
+    <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
       {isTopSectionVisible && (
         <div className="bg-background-secondary dark:bg-background-secondary-dark pt-24 pb-16">
-          <div className="absolute inset-0 overflow-hidden leading-none text-background dark:text-background-dark pointer-events-none">
+          <div className="absolute -top-px left-0 -right-px leading-none text-background dark:text-background-dark pointer-events-none">
             <svg
               viewBox="0 0 1613.26 511.77"
               xmlns="http://www.w3.org/2000/svg"
