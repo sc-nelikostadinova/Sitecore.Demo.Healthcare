@@ -36,6 +36,7 @@
   --font-body: var(--font-body);
 
   --shadow-soft: 0px 3px 45px rgba(0, 0, 0, 0.16);
+  --background-image-hero-clip: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1601.7 992.77' preserveAspectRatio='none'%3E%3Cg fill='black'%3E%3Cpath d='M.83,636.38s121.41,339.4,484.75,353.09,578.3-16.53,644.58-66.01,469.84-402.66,469.84-402.66l1.7-520.8L0,.05l.83,636.33Z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 @utility container {
@@ -130,6 +131,41 @@
   .component-gray-background {
     @apply !bg-disabled dark:!bg-disabled-dark;
   }
+
+  .placeholder-pattern-background {
+    --color-pattern-background: var(--color-background-secondary);
+    --color-pattern-foreground: var(--color-background-secondary-dark);
+
+    .dark & {
+      --color-pattern-background: var(--color-background-secondary-dark);
+      --color-pattern-foreground: var(--color-accent);
+    }
+
+    background: radial-gradient(
+        circle,
+        transparent 20%,
+        var(--color-pattern-background) 20%,
+        var(--color-pattern-background) 80%,
+        transparent 80%,
+        transparent
+      ),
+      radial-gradient(
+          circle,
+          transparent 20%,
+          var(--color-pattern-background) 20%,
+          var(--color-pattern-background) 80%,
+          transparent 80%,
+          transparent
+        )
+        25px 25px,
+      linear-gradient(var(--color-pattern-foreground) 2px, transparent 2px) 0 -1px,
+      linear-gradient(
+          90deg,
+          var(--color-pattern-foreground) 2px,
+          var(--color-pattern-background) 2px
+        ) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  }
 }
 
 @layer base {
@@ -174,6 +210,10 @@
   [role='button']:not(:disabled) {
     @apply cursor-pointer;
   }
+
+  *::placeholder {
+    @apply text-foreground dark:text-foreground-dark;
+  }
 }
 
 @layer components {
@@ -189,5 +229,37 @@
     svg {
       @apply w-4 h-4;
     }
+  }
+
+  .slider-btn-wrapper {
+    @apply flex justify-end gap-4;
+  }
+
+  .slider-btn {
+    @apply flex justify-center items-center w-28 h-10 py-2 px-6 bg-background-tertiary text-background-secondary-dark rounded-lg;
+
+    &:disabled {
+      @apply bg-transparent text-disabled;
+    }
+
+    svg {
+      @apply w-full h-full object-contain;
+    }
+  }
+
+  .slider-pagination-wrapper {
+    @apply flex justify-center gap-4;
+  }
+
+  .slider-pagination-btn {
+    @apply w-5 aspect-square rounded-full bg-accent cursor-pointer;
+
+    &.active {
+      @apply w-12 aspect-auto;
+    }
+  }
+
+  .form-input {
+    @apply w-full py-4 px-6 bg-background rounded-lg shadow-md;
   }
 }

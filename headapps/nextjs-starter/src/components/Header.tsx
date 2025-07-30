@@ -30,7 +30,10 @@ export const DefaultHeader = (props: HeaderProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <section className={`relative py-8 ${props.params.styles}`} id={id ? id : undefined}>
+    <section
+      className={`relative bg-background dark:bg-background-dark py-8 ${props.params.styles}`}
+      id={id ? id : undefined}
+    >
       <div className="container flex items-center gap-2 lg:gap-4">
         <div className="max-w-50 lg:max-w-full mr-auto">
           <Link href={'/'}>
