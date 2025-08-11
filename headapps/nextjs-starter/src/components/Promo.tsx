@@ -85,6 +85,7 @@ const DefaultPromo = (props: PromoProps): JSX.Element => {
 };
 
 const WithPlaceholderPromo = (props: PromoProps): JSX.Element => {
+  console.log(props);
   return (
     <PromoWrapper props={props}>
       <h2>
