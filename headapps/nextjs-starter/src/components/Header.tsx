@@ -28,7 +28,6 @@ type HeaderProps = {
 
 export const DefaultHeader = (props: HeaderProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props);
 
   return (
     <section
