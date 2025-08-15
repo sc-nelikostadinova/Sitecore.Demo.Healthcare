@@ -223,6 +223,14 @@
 
   .btn {
     @apply inline-flex items-center gap-4 px-6 py-2 rounded-lg text-lg lg:text-xl text-background font-heading font-bold bg-foreground;
+
+    &[disabled] {
+      @apply bg-disabled dark:bg-disabled-dark;
+    }
+  }
+
+  .btn-outline {
+    @apply bg-transparent border border-foreground text-foreground dark:border-foreground-dark dark:text-foreground-dark;
   }
 
   .btn-icon {
