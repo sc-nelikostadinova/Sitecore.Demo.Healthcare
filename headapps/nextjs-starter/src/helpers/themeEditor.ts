@@ -15,6 +15,8 @@ export const THEME_PRESETS: Record<string, Record<string, string>> = {
     '--color-background-input': '#b2ebf2',
     '--color-disabled': '#cfd8dc',
     '--color-disabled-dark': '#4db6ac',
+    // '--font-heading': 'var(--font-playfair)',
+    // '--font-body': 'var(--font-playfair)',
   },
   Sunset: {
     '--color-background': '#fff3e0',
@@ -31,6 +33,8 @@ export const THEME_PRESETS: Record<string, Record<string, string>> = {
     '--color-background-input': '#ffe0b2',
     '--color-disabled': '#d7ccc8',
     '--color-disabled-dark': '#8d6e63',
+    // '--font-heading': 'var(--font-poppins)',
+    // '--font-body': 'var(--font-poppins)',
   },
   Midnight: {
     '--color-background': '#0d1b2a',
@@ -47,6 +51,8 @@ export const THEME_PRESETS: Record<string, Record<string, string>> = {
     '--color-background-input': '#1b263b',
     '--color-disabled': '#4b4b4b',
     '--color-disabled-dark': '#2c3e50',
+    // '--font-heading': 'var(--font-oswald)',
+    // '--font-body': 'var(--font-oswald)',
   },
 };
 
@@ -65,4 +71,6 @@ export const THEME_VARIABLES = [
   '--color-background-input',
   '--color-disabled',
   '--color-disabled-dark',
+  '--font-heading',
+  '--font-body',
 ];

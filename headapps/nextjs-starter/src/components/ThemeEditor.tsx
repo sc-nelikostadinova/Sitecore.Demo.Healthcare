@@ -2,6 +2,7 @@
 import { faRotateBack, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState, useEffect, useCallback } from 'react';
+import { ALL_FONT_VALUES, FONT_GROUPS } from 'src/helpers/fonts';
 import { THEME_PRESETS, THEME_VARIABLES } from 'src/helpers/themeEditor';
 
 export const ThemeEditor = () => {
@@ -34,12 +35,12 @@ export const ThemeEditor = () => {
     setCustomPresets(savedCustomPresets);
 
     Object.entries(saved).forEach(([name, value]) => {
-      document.documentElement.style.setProperty(name, value);
+      setThemeVar(name, value);
     });
   }, []);
 
   const updateVar = (name: string, value: string) => {
-    document.documentElement.style.setProperty(name, value);
+    setThemeVar(name, value);
     const updated = { ...vars, [name]: value };
     setVars(updated);
     localStorage.setItem('theme-vars', JSON.stringify(updated));
@@ -48,7 +49,7 @@ export const ThemeEditor = () => {
 
   const resetVar = (name: string) => {
     const defaultValue = defaultVars[name];
-    document.documentElement.style.removeProperty(name);
+    removeThemeVar(name);
     const updated = { ...vars, [name]: defaultValue };
     setVars(updated);
     localStorage.setItem('theme-vars', JSON.stringify(updated));
@@ -57,7 +58,7 @@ export const ThemeEditor = () => {
 
   const resetVars = () => {
     Object.keys(getThemeVariables()).forEach((name) => {
-      document.documentElement.style.removeProperty(name);
+      removeThemeVar(name);
     });
     localStorage.removeItem('theme-vars');
     setVars(defaultVars);
@@ -67,7 +68,7 @@ export const ThemeEditor = () => {
   const applyPreset = (presetName: string, isCustom = false) => {
     const preset = isCustom ? customPresets[presetName] : THEME_PRESETS[presetName];
     Object.entries(preset).forEach(([name, value]) => {
-      document.documentElement.style.setProperty(name, value);
+      setThemeVar(name, value);
     });
     setVars(preset);
     localStorage.setItem('theme-vars', JSON.stringify(preset));
@@ -121,6 +122,8 @@ export const ThemeEditor = () => {
   useEffect(() => {
     detectPreset(vars);
   }, [detectPreset, vars]);
+
+  const selectValueForFont = (value: string) => (ALL_FONT_VALUES.includes(value) ? value : '');
 
   return (
     <section className="my-12">
@@ -199,12 +202,34 @@ export const ThemeEditor = () => {
                 return (
                   <div key={name} className="flex items-center gap-4">
                     <label className="w-64 text-sm font-medium">{name}</label>
-                    <input
-                      type={isColor(value) ? 'color' : 'text'}
-                      value={formatForInput(value)}
-                      onChange={(e) => updateVar(name, e.target.value)}
-                      className="border rounded px-2 py-1 w-32"
-                    />
+                    {isFont(name) ? (
+                      <select
+                        value={selectValueForFont(value)}
+                        onChange={(e) => updateVar(name, e.target.value)}
+                        className="border rounded px-2 py-1 text-sm w-56"
+                      >
+                        {/* If current value isn't recognized, show a placeholder reflecting current */}
+                        {!ALL_FONT_VALUES.includes(value) && (
+                          <option value="">Custom / Unlisted</option>
+                        )}
+                        {Object.entries(FONT_GROUPS).map(([group, options]) => (
+                          <optgroup key={group} label={group}>
+                            {options.map((opt) => (
+                              <option key={opt.value} value={opt.value}>
+                                {opt.label}
+                              </option>
+                            ))}
+                          </optgroup>
+                        ))}
+                      </select>
+                    ) : (
+                      <input
+                        type={isColor(value) ? 'color' : 'text'}
+                        value={formatForInput(value)}
+                        onChange={(e) => updateVar(name, e.target.value)}
+                        className="border rounded px-2 py-1 w-32"
+                      />
+                    )}
                     <button
                       onClick={() => resetVar(name)}
                       className="btn btn-icon"
@@ -234,6 +259,32 @@ function isColor(value: string) {
   return /^#([0-9A-F]{3}){1,2}$/i.test(value);
 }
 
+function isFont(name: string) {
+  return /^--font/.test(name);
+}
+
 function formatForInput(value: string) {
   return value.startsWith('#') ? value : value;
+}
+
+function setThemeVar(name: string, value: string) {
+  // if (isFont(name)) {
+  //   const mainLayout = document.querySelector<HTMLElement>('.main-layout');
+  //   if (mainLayout) {
+  //     mainLayout.style.setProperty(name, value);
+  //   }
+  // } else {
+  document.documentElement.style.setProperty(name, value);
+  // }
+}
+
+function removeThemeVar(name: string) {
+  // if (isFont(name)) {
+  //   const mainLayout = document.querySelector<HTMLElement>('.main-layout');
+  //   if (mainLayout) {
+  //     mainLayout.style.removeProperty(name);
+  //   }
+  // } else {
+  document.documentElement.style.removeProperty(name);
+  // }
 }

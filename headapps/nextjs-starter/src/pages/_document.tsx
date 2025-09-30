@@ -1,29 +1,28 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
+import { ALL_FONT_VARIABLES } from 'src/helpers/fonts';
 
 export default function Document() {
   return (
-    <Html>
+    <Html className={ALL_FONT_VARIABLES}>
       <Head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var saved = localStorage.getItem('theme-vars');
-                  if (!saved) return;
-                  var vars = JSON.parse(saved);
-                  for (var name in vars) {
-                    if (vars.hasOwnProperty(name)) {
-                      document.documentElement.style.setProperty(name, vars[name]);
-                    }
+        <Script id="theme-preload" strategy="beforeInteractive">
+          {`
+            try {
+              var saved = localStorage.getItem('theme-vars');
+              if (saved) {
+                var vars = JSON.parse(saved);
+                for (var name in vars) {
+                  if (Object.prototype.hasOwnProperty.call(vars, name)) {
+                    document.documentElement.style.setProperty(name, vars[name]);
                   }
-                } catch(e) {
-                  console.error('Theme preload failed', e);
                 }
-              })();
-            `,
-          }}
-        />
+              }
+            } catch(e) {
+              console.error('Theme preload failed', e);
+            }
+          `}
+        </Script>
       </Head>
       <body>
         <Main />
