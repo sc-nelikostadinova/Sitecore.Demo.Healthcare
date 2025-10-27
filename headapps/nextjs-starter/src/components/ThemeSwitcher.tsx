@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, JSX } from 'react';
 
 export const Default = (): JSX.Element => {
   const [isDark, setIsDark] = useState<boolean | null>(null);

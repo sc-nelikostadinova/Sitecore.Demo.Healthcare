@@ -1,5 +1,6 @@
 'use client';
 
+import { JSX } from 'react';
 import {
   Text as JssText,
   RichText as JssRichText,

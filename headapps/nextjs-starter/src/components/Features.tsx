@@ -1,5 +1,6 @@
 'use client';
 
+import { JSX } from 'react';
 import { IGQLImageField, IGQLRichTextField, IGQLTextField } from 'src/types/igql';
 import {
   Text as JssText,

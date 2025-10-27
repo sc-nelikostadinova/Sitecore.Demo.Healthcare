@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import Link from 'next/link';
 import { Text as JssText, NextImage as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Doctor } from './DoctorDetails';
