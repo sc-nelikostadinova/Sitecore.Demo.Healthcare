@@ -1,7 +1,7 @@
 import { JSX } from 'react';
 import Head from 'next/head';
 import {
-  GraphQLErrorPagesService,
+  ErrorPagesService,
   SitecoreProvider,
   ErrorPages,
 } from '@sitecore-content-sdk/nextjs';
@@ -44,9 +44,9 @@ const Custom500 = (props: SitecorePageProps): JSX.Element => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (page) => {
+export const getComponentServerProps: GetStaticProps = async (page) => {
   const site = siteResolver.getByName(config.sitecoreSiteName);
-  const errorPagesService = new GraphQLErrorPagesService({
+  const errorPagesService = new ErrorPagesService({
     clientFactory,
     siteName: site.name,
     language: page.locale || page.defaultLocale || page.defaultLanguage,

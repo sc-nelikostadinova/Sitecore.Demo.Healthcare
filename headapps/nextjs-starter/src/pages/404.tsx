@@ -1,7 +1,7 @@
 import { JSX } from 'react';
 import scConfig from 'sitecore.config';
 import {
-  GraphQLErrorPagesService,
+  ErrorPagesService,
   SitecoreProvider,
   ErrorPages,
 } from '@sitecore-content-sdk/nextjs';
@@ -28,9 +28,9 @@ const Custom404 = (props: SitecorePageProps): JSX.Element => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getComponentServerProps: GetStaticProps = async (context) => {
   const site = siteResolver.getByName(config.sitecoreSiteName);
-  const errorPagesService = new GraphQLErrorPagesService({
+  const errorPagesService = new ErrorPagesService({
     clientFactory,
     siteName: site.name,
     language: context.locale || config.defaultLanguage,

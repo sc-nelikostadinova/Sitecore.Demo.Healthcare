@@ -1,7 +1,7 @@
 import {
   DictionaryService,
   RestDictionaryService,
-  GraphQLDictionaryService,
+  DictionaryService,
   constants,
 } from '@sitecore-content-sdk/nextjs';
 import scConfig from 'sitecore.config';
@@ -17,7 +17,7 @@ export class DictionaryServiceFactory {
    */
   create(siteName: string): DictionaryService {
     return process.env.FETCH_WITH === constants.FETCH_WITH.GRAPHQL
-      ? new GraphQLDictionaryService({
+      ? new DictionaryService({
           siteName,
           clientFactory,
           /*

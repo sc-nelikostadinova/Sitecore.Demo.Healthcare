@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { GraphQLSiteInfoService, SiteInfo } from '@sitecore-content-sdk/nextjs';
+import { SiteInfoService, SiteInfo } from '@sitecore-content-sdk/nextjs';
 import { createGraphQLClientFactory } from 'lib/graphql-client-factory/create';
 import { JssConfig } from 'lib/config';
 import { ConfigPlugin } from '..';
@@ -16,7 +16,7 @@ class MultisitePlugin implements ConfigPlugin {
     let sites: SiteInfo[] = [];
     console.log('Fetching site information');
     try {
-      const siteInfoService = new GraphQLSiteInfoService({
+      const siteInfoService = new SiteInfoService({
         clientFactory: createGraphQLClientFactory(config),
       });
       sites = await siteInfoService.fetchSiteInfo();

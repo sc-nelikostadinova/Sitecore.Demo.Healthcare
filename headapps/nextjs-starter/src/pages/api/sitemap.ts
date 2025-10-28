@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { NativeDataFetcher, GraphQLSitemapXmlService } from '@sitecore-content-sdk/nextjs';
+import { NativeDataFetcher, SitemapXmlService } from '@sitecore-content-sdk/nextjs';
 import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 
@@ -16,7 +16,7 @@ const sitemapApi = async (
   const site = siteResolver.getByHost(hostName);
 
   // create sitemap graphql service
-  const sitemapXmlService = new GraphQLSitemapXmlService({
+  const sitemapXmlService = new SitemapXmlService({
     clientFactory,
     siteName: site.name,
   });

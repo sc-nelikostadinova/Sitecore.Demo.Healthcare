@@ -39,7 +39,7 @@ const SitecorePage = ({
         api={scConfig.api}
       >
         <Layout layoutData={layoutData} />
-      </<SitecoreProvider>
+      </SitecoreProvider>
     </ComponentPropsContext>
   );
 };
@@ -82,7 +82,7 @@ export const getStaticPaths: GetStaticPaths = async (page) => {
 // This function gets called at build time on server-side.
 // It may be called again, on a serverless function, if
 // revalidation (or fallback) is enabled and a new request comes in.
-export const getStaticProps: GetStaticProps = async (page) => {
+export const getComponentServerProps: GetStaticProps = async (page) => {
   const props = await sitecorePagePropsFactory.create(page);
 
   return {
