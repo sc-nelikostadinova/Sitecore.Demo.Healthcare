@@ -14,7 +14,7 @@ import {
   Field,
   RichTextField,
   withDatasourceCheck,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';

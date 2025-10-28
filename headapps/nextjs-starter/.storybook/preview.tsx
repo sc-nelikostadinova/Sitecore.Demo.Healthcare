@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/nextjs-vite';
-import { SitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { SitecoreContext } from '@sitecore-content-sdk/nextjs';
 import { componentBuilder } from './mockData/mockComponentBuilder';
 import { mockLayoutData } from './mockData/mockLayoutData';
 

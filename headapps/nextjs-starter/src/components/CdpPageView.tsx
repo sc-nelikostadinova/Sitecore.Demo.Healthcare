@@ -2,10 +2,10 @@ import {
   CdpHelper,
   LayoutServicePageState,
   useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { useEffect, JSX } from 'react';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
-import config from 'temp/config';
+import scConfig from 'sitecore.config';
 
 /**
  * This is the CDP page view component.

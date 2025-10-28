@@ -6,12 +6,12 @@ import {
   SitecoreContext,
   ComponentPropsContext,
   StaticPath,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import { handleEditorFastRefresh } from '@sitecore-jss/sitecore-jss-nextjs/utils';
+} from '@sitecore-content-sdk/nextjs';
+import { handleEditorFastRefresh } from '@sitecore-content-sdk/nextjs/utils';
 import { SitecorePageProps } from 'lib/page-props';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentBuilder } from 'temp/componentBuilder';
-import config from 'temp/config';
+import scConfig from 'sitecore.config';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 
 const SitecorePage = ({
@@ -37,12 +37,7 @@ const SitecorePage = ({
       <SitecoreContext
         componentFactory={componentBuilder.getComponentFactory({ isEditing })}
         layoutData={layoutData}
-        api={{
-          edge: {
-            contextId: config.sitecoreEdgeContextId,
-            edgeUrl: config.sitecoreEdgeUrl,
-          },
-        }}
+        api={scConfig.api}
       >
         <Layout layoutData={layoutData} headLinks={headLinks} />
       </SitecoreContext>

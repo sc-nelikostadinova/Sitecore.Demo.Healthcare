@@ -5,7 +5,7 @@
  */
 function generateComponentSrc(componentName: string): string {
   return `import React, { JSX } from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentParams, ComponentRendering } from '@sitecore-content-sdk/nextjs';
 
 interface ${componentName}Props {
   rendering: ComponentRendering & { params: ComponentParams };

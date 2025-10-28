@@ -1,6 +1,6 @@
 import React, { JSX } from 'react';
 import Link from 'next/link';
-import { Text as JssText, NextImage as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text as JssText, NextImage as JssImage } from '@sitecore-content-sdk/nextjs';
 import { Doctor } from './DoctorDetails';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';

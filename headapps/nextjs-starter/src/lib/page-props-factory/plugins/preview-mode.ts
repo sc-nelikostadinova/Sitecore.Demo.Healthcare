@@ -3,11 +3,11 @@ import {
   SiteInfo,
   personalizeLayout,
   getGroomedVariantIds,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import {
   editingDataService,
   isEditingMetadataPreviewData,
-} from '@sitecore-jss/sitecore-jss-nextjs/editing';
+} from '@sitecore-content-sdk/nextjs/editing';
 import { SitecorePageProps } from 'lib/page-props';
 import { graphQLEditingService } from 'lib/graphql-editing-service';
 import { Plugin } from '..';

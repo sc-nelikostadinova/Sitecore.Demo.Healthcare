@@ -3,8 +3,8 @@ import {
   RestDictionaryService,
   GraphQLDictionaryService,
   constants,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import config from 'temp/config';
+} from '@sitecore-content-sdk/nextjs';
+import scConfig from 'sitecore.config';
 import clientFactory from 'lib/graphql-client-factory';
 
 /**

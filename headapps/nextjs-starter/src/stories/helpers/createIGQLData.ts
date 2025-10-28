@@ -1,4 +1,4 @@
-import { Field, RichTextField, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, RichTextField, ImageField } from '@sitecore-content-sdk/nextjs';
 
 export type IGQLField<T> = { jsonValue: T };
 

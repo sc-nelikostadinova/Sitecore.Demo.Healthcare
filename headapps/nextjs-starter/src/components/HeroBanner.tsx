@@ -10,7 +10,7 @@ import {
   ComponentRendering,
   ComponentParams,
   withDatasourceCheck,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import BlobAccent from './shapes/BlobAccent';
 import HeroClip from './shapes/HeroClip';
 import { useI18n } from 'next-localization';

@@ -3,8 +3,8 @@
  */
 import { JSX } from 'react';
 import Head from 'next/head';
-import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
-import config from 'temp/config';
+import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-content-sdk/nextjs';
+import scConfig from 'sitecore.config';
 import Scripts from 'src/Scripts';
 import { Mulish, Noto_Sans } from 'next/font/google';
 

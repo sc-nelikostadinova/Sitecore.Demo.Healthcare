@@ -1,4 +1,4 @@
-import { HtmlElementRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { HtmlElementRendering } from '@sitecore-content-sdk/nextjs';
 
 export const renderStorybookPlaceholder = (): HtmlElementRendering => {
   return {

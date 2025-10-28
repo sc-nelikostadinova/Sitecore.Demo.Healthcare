@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PersonalizeMiddleware } from '@sitecore-jss/sitecore-jss-nextjs/middleware';
+import { PersonalizeMiddleware } from '@sitecore-content-sdk/nextjs/middleware';
 import { MiddlewarePlugin } from '..';
 import clientFactory from 'lib/graphql-client-factory';
-import config from 'temp/config';
+import scConfig from 'sitecore.config';
 import { siteResolver } from 'lib/site-resolver';
 
 /**

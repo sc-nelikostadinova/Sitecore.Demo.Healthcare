@@ -14,7 +14,7 @@ import {
   ComponentParams,
   Placeholder,
   withDatasourceCheck,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent from './shapes/BlobAccent';

@@ -8,7 +8,7 @@ import {
   RichText as JssRichText,
   withSitecoreContext,
   SitecoreContextValue,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 
 export interface Doctor {
   FullName: Field<string>;

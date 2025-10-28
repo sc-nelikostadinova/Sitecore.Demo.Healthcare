@@ -9,7 +9,7 @@ import {
   withDatasourceCheck,
   ComponentRendering,
   ComponentParams,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { isEnabled } from 'src/helpers/isEnabled';
 import BlobAccent from './shapes/BlobAccent';
 

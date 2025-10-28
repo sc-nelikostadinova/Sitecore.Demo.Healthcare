@@ -8,7 +8,7 @@ class FormPlugin implements ComponentBuilderPlugin {
 
   exec(config: ComponentBuilderPluginConfig) {
     config.packages.push({
-      name: '@sitecore-jss/sitecore-jss-nextjs',
+      name: '@sitecore-content-sdk/nextjs',
       components: [
         {
           componentName: 'Form',

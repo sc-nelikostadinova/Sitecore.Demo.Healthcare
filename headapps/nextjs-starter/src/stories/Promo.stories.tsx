@@ -14,7 +14,7 @@ import {
 } from './helpers/createFields';
 import { createIGQLData } from './helpers/createIGQLData';
 import { createFeatureItems } from './helpers/createItems';
-import { ComponentFields } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 
 type StoryProps = ComponentProps<typeof Default> &
   AppearanceArgs & {

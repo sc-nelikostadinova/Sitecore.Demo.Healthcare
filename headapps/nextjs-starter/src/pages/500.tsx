@@ -4,12 +4,12 @@ import {
   GraphQLErrorPagesService,
   SitecoreContext,
   ErrorPages,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { SitecorePageProps } from 'lib/page-props';
 import Layout from 'src/Layout';
 import { componentBuilder } from 'temp/componentBuilder';
 import { GetStaticProps } from 'next';
-import config from 'temp/config';
+import scConfig from 'sitecore.config';
 import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 
