@@ -19,7 +19,7 @@ function generateMetadata(): void {
  * @param {Metadata} metadata metadata to write.
  */
 function writeMetadata(metadata: Metadata): void {
-  const filePath = path.resolve('src/temp/metadata.json');
+  const filePath = path.resolve('src/.sitecore/metadata.json');
   console.log(`Writing metadata to ${filePath}`);
   fs.writeFileSync(filePath, JSON.stringify(metadata, null, 2), { encoding: 'utf8' });
 }
