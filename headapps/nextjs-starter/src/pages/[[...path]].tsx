@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import {
-  SitecoreContext,
+  SitecoreProvider,
   ComponentPropsContext,
   StaticPath,
 } from '@sitecore-content-sdk/nextjs';
@@ -33,20 +33,20 @@ const SitecorePage = ({
 
   return (
     <ComponentPropsContext value={componentProps}>
-      <SitecoreContext
+      <SitecoreProvider
         componentFactory={componentBuilder.getComponentFactory({ isEditing })}
         layoutData={layoutData}
         api={scConfig.api}
       >
         <Layout layoutData={layoutData} />
-      </SitecoreContext>
+      </<SitecoreProvider>
     </ComponentPropsContext>
   );
 };
 
 // This function gets called at build and export time to determine
 // pages for SSG ("paths", as tokenized array).
-export const getStaticPaths: GetStaticPaths = async (context) => {
+export const getStaticPaths: GetStaticPaths = async (page) => {
   // Fallback, along with revalidate in getStaticProps (below),
   // enables Incremental Static Regeneration. This allows us to
   // leave certain (or all) paths empty if desired and static pages
@@ -64,7 +64,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
   ) {
     try {
       // Note: Next.js runs export in production mode
-      paths = await sitemapFetcher.fetch(context);
+      paths = await sitemapFetcher.fetch(page);
     } catch (error) {
       console.log('Error occurred while fetching static paths');
       console.log(error);
@@ -82,8 +82,8 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 // This function gets called at build time on server-side.
 // It may be called again, on a serverless function, if
 // revalidation (or fallback) is enabled and a new request comes in.
-export const getStaticProps: GetStaticProps = async (context) => {
-  const props = await sitecorePagePropsFactory.create(context);
+export const getStaticProps: GetStaticProps = async (page) => {
+  const props = await sitecorePagePropsFactory.create(page);
 
   return {
     props,

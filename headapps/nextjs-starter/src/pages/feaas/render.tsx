@@ -20,13 +20,13 @@ const FEAASRender = ({ feaasSrc }: { feaasSrc: string }): JSX.Element => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async (page) => {
   return {
     props: {
-      feaasSrc: context.query.feaasSrc || null,
+      feaasSrc: page.query.feaasSrc || null,
     },
     // Don't show the page if it's not requested by the api route using the preview mode
-    notFound: !context.preview,
+    notFound: !page.preview,
   };
 };
 

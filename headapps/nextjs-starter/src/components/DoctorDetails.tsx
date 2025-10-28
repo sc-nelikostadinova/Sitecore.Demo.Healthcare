@@ -6,7 +6,7 @@ import {
   ImageField,
   RichTextField,
   RichText as JssRichText,
-  withSitecoreContext,
+  withSitecore,
   SitecoreContextValue,
 } from '@sitecore-content-sdk/nextjs';
 
@@ -18,7 +18,7 @@ export interface Doctor {
 }
 
 type DoctorDetailsProps = {
-  sitecoreContext: SitecoreContextValue;
+  page: SitecoreContextValue;
   params: { [key: string]: string };
   fields: Doctor;
 };
@@ -48,4 +48,4 @@ const DefaultDoctorDetails = (props: DoctorDetailsProps): JSX.Element => {
   );
 };
 
-export const Default = withSitecoreContext()<DoctorDetailsProps>(DefaultDoctorDetails);
+export const Default = withSitecore()<DoctorDetailsProps>(DefaultDoctorDetails);

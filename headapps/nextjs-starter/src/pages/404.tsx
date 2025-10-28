@@ -2,7 +2,7 @@ import { JSX } from 'react';
 import scConfig from 'sitecore.config';
 import {
   GraphQLErrorPagesService,
-  SitecoreContext,
+  SitecoreProvider,
   ErrorPages,
 } from '@sitecore-content-sdk/nextjs';
 import { SitecorePageProps } from 'lib/page-props';
@@ -19,12 +19,12 @@ const Custom404 = (props: SitecorePageProps): JSX.Element => {
   }
 
   return (
-    <SitecoreContext
+    <SitecoreProvider
       componentFactory={componentBuilder.getComponentFactory()}
       layoutData={props.layoutData}
     >
       <Layout layoutData={props.layoutData} />
-    </SitecoreContext>
+    </SitecoreProvider>
   );
 };
 

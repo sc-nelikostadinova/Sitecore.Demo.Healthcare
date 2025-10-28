@@ -7,6 +7,7 @@ import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-conte
 import scConfig from 'sitecore.config';
 import Scripts from 'src/Scripts';
 import { Mulish, Noto_Sans } from 'next/font/google';
+import SitecoreStyles from 'src/components/SitecoreStyles';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -66,6 +67,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   return (
     <>
       <Scripts />
+      <SitecoreStyles layoutData={layoutData} />
       <Head>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
