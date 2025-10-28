@@ -37,7 +37,7 @@ const preview: Preview = {
     (Story) => {
       return (
         <SitecoreProvider
-          componentFactory={componentBuilder.getComponentFactory({
+          componentMap={components.getComponentFactory({
             isEditing: false,
           })}
           layoutData={mockLayoutData}

@@ -10,7 +10,7 @@ import {
 import { handleEditorFastRefresh } from '@sitecore-content-sdk/nextjs/utils';
 import { SitecorePageProps } from 'lib/page-props';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
-import { componentBuilder } from 'temp/componentBuilder';
+import components from '.sitecore/component-map';
 import scConfig from 'sitecore.config';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 
@@ -34,7 +34,7 @@ const SitecorePage = ({
   return (
     <ComponentPropsContext value={componentProps}>
       <SitecoreProvider
-        componentFactory={componentBuilder.getComponentFactory({ isEditing })}
+        componentMap={components}
         layoutData={layoutData}
         api={scConfig.api}
       >

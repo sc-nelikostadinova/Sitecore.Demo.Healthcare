@@ -7,7 +7,7 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import { SitecorePageProps } from 'lib/page-props';
 import Layout from 'src/Layout';
-import { componentBuilder } from 'temp/componentBuilder';
+import components from '.sitecore/component-map';
 import { GetStaticProps } from 'next';
 import scConfig from 'sitecore.config';
 import { siteResolver } from 'lib/site-resolver';
@@ -36,7 +36,7 @@ const Custom500 = (props: SitecorePageProps): JSX.Element => {
 
   return (
     <SitecoreProvider
-      componentFactory={componentBuilder.getComponentFactory()}
+      componentMap={components}
       layoutData={props.layoutData}
     >
       <Layout layoutData={props.layoutData} />
