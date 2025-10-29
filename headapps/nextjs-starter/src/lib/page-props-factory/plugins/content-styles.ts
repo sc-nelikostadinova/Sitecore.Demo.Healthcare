@@ -1,4 +1,4 @@
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import { getContentStylesheetLink } from '@sitecore-content-sdk/nextjs';
 import { Plugin } from '..';
 import scConfig from 'sitecore.config';

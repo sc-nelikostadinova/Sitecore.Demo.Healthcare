@@ -1,5 +1,5 @@
 import { ComponentPropsService, ComponentPropsError } from '@sitecore-content-sdk/nextjs';
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
 import { moduleFactory } from '.sitecore/component-map';
 import { Plugin, isServerSidePropsContext } from '..';

@@ -1,4 +1,4 @@
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
 import { getSiteRewriteData } from '@sitecore-content-sdk/nextjs';
 import { Plugin } from '..';

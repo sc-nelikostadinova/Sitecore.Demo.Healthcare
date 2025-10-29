@@ -2,7 +2,7 @@ import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
 import { DictionaryService, LayoutService } from '@sitecore-content-sdk/nextjs';
 import { dictionaryServiceFactory } from 'lib/dictionary-service-factory';
 import { layoutServiceFactory } from 'lib/layout-service-factory';
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import { pathExtractor } from 'lib/extract-path';
 import { Plugin, isServerSidePropsContext } from '..';
 

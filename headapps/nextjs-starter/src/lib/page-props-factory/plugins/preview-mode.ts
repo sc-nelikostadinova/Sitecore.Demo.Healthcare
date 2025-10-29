@@ -8,7 +8,7 @@ import {
   editingDataService,
   isEditingMetadataPreviewData,
 } from '@sitecore-content-sdk/nextjs/editing';
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import { graphQLEditingService } from 'lib/graphql-editing-service';
 import { Plugin } from '..';
 

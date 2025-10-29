@@ -5,7 +5,7 @@ import {
   SitecoreProvider,
   ErrorPages,
 } from '@sitecore-content-sdk/nextjs';
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import NotFound from 'src/NotFound';
 import components from '.sitecore/component-map';
 import Layout from 'src/Layout';

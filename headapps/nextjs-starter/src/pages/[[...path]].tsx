@@ -8,7 +8,7 @@ import {
   StaticPath,
 } from '@sitecore-content-sdk/nextjs';
 import { handleEditorFastRefresh } from '@sitecore-content-sdk/nextjs/utils';
-import { SitecorePageProps } from 'lib/page-props';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import components from '.sitecore/component-map';
 import scConfig from 'sitecore.config';
