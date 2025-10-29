@@ -70,7 +70,7 @@ export const Default = (props: TitleProps): JSX.Element => {
       title: datasource?.field?.jsonValue?.value,
     },
   };
-  if (page.pageState !== 'normal') {
+  if (!page.mode.isNormal) {
     link.value.querystring = `sc_site=${datasource?.url?.siteName}`;
     if (!text?.value) {
       text.value = 'Title field';
@@ -81,7 +81,7 @@ export const Default = (props: TitleProps): JSX.Element => {
   return (
     <ComponentContent styles={props?.params?.styles} id={props?.params?.RenderingIdentifier}>
       <>
-        {page.pageEditing ? (
+        {page.mode.isEditing ? (
           <Text field={text} />
         ) : (
           <Link field={link}>
