@@ -147,7 +147,7 @@ const NavigationList = (props: NavigationProps) => {
       <div className="flex items-center gap-1">
         <Link
           field={getLinkField(props)}
-          editable={page.pageEditing}
+          editable={page.mode.isEditing}
           onClick={props.handleClick}
           className="whitespace-nowrap"
         >
