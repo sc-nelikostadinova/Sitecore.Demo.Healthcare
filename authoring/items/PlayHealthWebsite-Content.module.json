@@ -8,12 +8,7 @@
                 "name": "website-content",
                 "path": "/sitecore/content/play/play-healthcare",
                 "scope": "ItemAndDescendants",
-                "rules": [
-                    {
-                        "path": "/Home",
-                        "scope": "ignored"
-                    }
-                ]
+                "rules": []
             }
         ]
     }

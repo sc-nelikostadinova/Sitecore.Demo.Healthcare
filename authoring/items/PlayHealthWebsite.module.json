@@ -43,10 +43,6 @@
                 "scope": "descendantsOnly"
             },
             {
-                "name": "cmp-config",
-                "path": "/sitecore/system/Modules/CMP/Config"
-            },
-            {
                 "name": "branches",
                 "path": "/sitecore/templates/Branches/Project",
                 "scope": "descendantsOnly"
@@ -54,18 +50,6 @@
             {
                 "name": "enable-language-fallback-default",
                 "path": "/sitecore/templates/System/Templates/Sections/Advanced/Advanced/__Enable item fallback"
-            },
-            {
-                "name": "added-site-theme-field-to-sxa",
-                "path": "/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Theme"
-            },
-            {
-                "name": "demo-workflow",
-                "path": "/sitecore/system/Workflows/Demo Workflow"
-            },
-            {
-                "name": "demo-copywriting-workflow",
-                "path": "/sitecore/system/Workflows/Demo Copywriting Workflow"
             }
         ]
     }
