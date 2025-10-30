@@ -1,0 +1,55 @@
+﻿---
+ID: "09e5d5f1-2c64-4230-81ed-2fa773ed73e2"
+Parent: "07d2e325-f38b-47ca-b57b-2d008e5c8763"
+Template: "efb21b22-26bd-402e-bce3-8fadbbe7fb5d"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Footer/Data/Global Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "235c5f74-785b-4b3f-bb1d-cf50b87e066a"
+      Hint: FbLink
+      Value: |
+        <link linktype="external" url="#" target="" text="Facebook" title="" class=""/>
+    - ID: "23d2e5bb-9978-413e-8660-d33afc8e9b21"
+      Hint: InstagramLink
+      Value: |
+        <link linktype="external" url="#" target="" text="Instagram" title="" class=""/>
+    - ID: "35c5973b-80af-451a-aaa8-586d1090618c"
+      Hint: WorkingHours
+      Value: |
+        <div class="ck-content"><p><strong>Hospital Time</strong></p><p>&nbsp;</p><p>Monday - Friday 08:00 - 20:00</p><p>Saturday: 9:00 - 18:00&nbsp;</p><p>Sunday: 9:00 - 18:00&nbsp;</p><p>Holidays: 9:00 - 18:00</p></div>
+    - ID: "42627489-b32e-4a0c-8909-b78eec660b5b"
+      Hint: TermsOfUse
+      Value: |
+        <link linktype="external" url="#" target="" text="Terms of Use" title="" class=""/>
+    - ID: "757ba054-531f-4ef2-bf64-b7300c5d6285"
+      Hint: LogoDark
+      Value: |
+        <image mediaid="898d860d-46cf-4a32-ad20-fac841d86c86" alt="Light version of Play Health Logo"/>
+    - ID: "7cd11eb4-a457-407d-80f5-9eb45af043e7"
+      Hint: LogoLight
+      Value: |
+        <image mediaid="d5d385be-83a1-4eb6-9aeb-63e618b198fd" alt="Dark version of Play Health Logo"/>
+    - ID: "7e7b90c8-35f6-4b15-aa2e-a9e2b0d1193b"
+      Hint: Copyright
+      Value: Copyright © 2024. All Rights Reserved.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88a0e82a-566d-42d3-b5ba-5a3ff4863d7e"
+    - ID: "99cce818-ad46-4547-9024-85859dfb57ec"
+      Hint: PrivacyPolicy
+      Value: |
+        <link linktype="external" url="#" target="" text="Privacy Policy" title="" class=""/>
+    - ID: "b02d7e83-f7c4-48c9-ad18-2b7f893bb2c7"
+      Hint: AddressInfo
+      Value: |
+        <div class="ck-content"><p><strong>Contact</strong></p><p>&nbsp;</p><p>1288 Kings Way&nbsp;</p><p>King Street, 5th Avenue, New York&nbsp;</p><p>Phone: +00-2345-3455-5544</p></div>
+    - ID: "f0a973dd-0c71-4718-a2cd-5cab62d41506"
+      Hint: TwitterLink
+      Value: |
+        <link linktype="external" url="#" target="" text="X" title="" class=""/>

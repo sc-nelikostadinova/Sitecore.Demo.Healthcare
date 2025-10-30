@@ -1,0 +1,20 @@
+﻿---
+ID: "2a1e7910-2743-4935-b2e0-708b58e14c4f"
+Parent: "a87ca0d1-e7ee-44fa-a182-19723e88c19d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/play/ContentSectionContent
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "content-section-content-{*}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ed487bb4-5b9e-4594-bc29-551a05a7bac0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a1a2791-50e7-4b2d-98c1-d1f9ab11732d"

@@ -1,0 +1,23 @@
+﻿---
+ID: "25c67475-10b2-49a8-95bf-7570edba09a6"
+Parent: "b11dab3e-1419-4202-a5f7-170dc85268f0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Components/ContentSection/Rendering Parameters/ContentSection Parameters/Visual Accents/CurvedTop
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "83108404-78bf-4777-bc58-e664c604992c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4555aaf4-f68f-4185-b614-cda37d05bc92"

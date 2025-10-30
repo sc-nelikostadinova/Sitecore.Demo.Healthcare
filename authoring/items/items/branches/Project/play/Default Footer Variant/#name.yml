@@ -1,0 +1,13 @@
+﻿---
+ID: "9cd580ea-6227-418d-9bf4-548500145e54"
+Parent: "9f9cebe9-43f1-4099-bb8f-6ee843b01e6c"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Branches/Project/play/Default Footer Variant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1e98d40-edcc-4d1f-871f-4379d04e3c56"

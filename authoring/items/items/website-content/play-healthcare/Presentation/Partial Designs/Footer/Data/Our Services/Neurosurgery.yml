@@ -1,0 +1,17 @@
+﻿---
+ID: "26d402b1-1989-4304-8053-92766cb5eead"
+Parent: "f2a2c215-439d-4135-946d-a9bdb2d65582"
+Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Footer/Data/Our Services/Neurosurgery"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link id="{8d8252c6-b93b-43a1-959d-7ab0ff749269}" text="Neurosurgery" title="" querystring="sc_lang=en&amp;sc_site=PLAY%21+Healthcare" anchor="" target="" linktype="internal"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54bf795e-47ee-4316-a7dd-dcedbe4c4ad2"

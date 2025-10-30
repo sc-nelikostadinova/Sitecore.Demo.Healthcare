@@ -1,0 +1,20 @@
+﻿---
+ID: "d7bb3343-983f-4f40-99fd-a125353d6ae6"
+Parent: "6f65816c-6186-4c5c-ab39-a5187200f9e6"
+Template: "d2923fee-da4e-49be-830c-e27764dfa269"
+Path: "/sitecore/content/play/play-healthcare/Data/Lists/FooterDisplayOptions/Hide Bottom Section"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "736a0c79-0416-4ea1-b39b-f02f4d69e8bd"
+- ID: "f917c951-1f75-4d62-b14a-bc6888d7eeca"
+  Hint: Value
+  Value: HideBottomSection
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc6d0713-4254-4cae-9632-ef3a3f3126d0"

@@ -1,0 +1,13 @@
+﻿---
+ID: "07d2e325-f38b-47ca-b57b-2d008e5c8763"
+Parent: "ce4e5e03-07a5-429d-8131-f0a983a4214a"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Footer/Data"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b263f09-cc2d-4eb6-817d-baf8feee2c1a"

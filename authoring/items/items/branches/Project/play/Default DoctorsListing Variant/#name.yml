@@ -1,0 +1,13 @@
+﻿---
+ID: "32d91635-e963-4f51-9ffb-a7f65a6f06c3"
+Parent: "352b623b-c2a3-492e-82fa-c77ff4955c07"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Branches/Project/play/Default DoctorsListing Variant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb515e20-c960-475a-afc0-40dfed292d27"

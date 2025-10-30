@@ -1,0 +1,13 @@
+﻿---
+ID: "7a451c3b-7e81-4740-ae3d-a00438b00fb8"
+Parent: "604e6992-ab7b-4a58-8681-69b4ae575324"
+Template: "604e6992-ab7b-4a58-8681-69b4ae575324"
+Path: /sitecore/templates/Project/play/Headless Site/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84fc8b50-667c-4306-a9d6-05182861c798"

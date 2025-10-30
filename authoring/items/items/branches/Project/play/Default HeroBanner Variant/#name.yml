@@ -1,0 +1,13 @@
+﻿---
+ID: "096261fc-ea80-4c40-b915-21a734cdf328"
+Parent: "84104850-1710-441a-bfce-1fb16cffd06a"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Branches/Project/play/Default HeroBanner Variant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1e98d40-edcc-4d1f-871f-4379d04e3c56"

@@ -1,0 +1,32 @@
+﻿---
+ID: "4a85fe54-210c-46c3-a1f2-346c5aabc88b"
+Parent: "436e7a5f-4179-4e4b-9b23-8343ac813e02"
+Template: "6e8173be-68c2-4810-830e-14e3280b13ce"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Header/Data/Global Header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0802ca96-e388-4a5b-8764-27ecdc3331a0"
+      Hint: PhoneLink
+      Value: |
+        <link linktype="external" url="#" target="" text="Phone" title="" class=""/>
+    - ID: "450ed955-d45f-4c1b-883a-b8934d646ba4"
+      Hint: MailLink
+      Value: |
+        <link linktype="mailto" url="example@sitecore.com" class="" text="example@sitecore.com" title=""/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1114f491-25e8-472c-b8e9-d3d56310a57a"
+    - ID: "bce90c84-b20b-4faa-a08e-a1f767f6a7dd"
+      Hint: LogoLight
+      Value: |
+        <image mediaid="d5d385be-83a1-4eb6-9aeb-63e618b198fd" />
+    - ID: "f6fc3465-8da6-431c-aede-fd5e50485d7d"
+      Hint: LogoDark
+      Value: |
+        <image mediaid="898d860d-46cf-4a32-ad20-fac841d86c86" />

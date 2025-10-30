@@ -1,0 +1,30 @@
+﻿---
+ID: "f985f629-be26-4a23-aad3-4ca71a36cf5c"
+Parent: "d6c929a4-eff8-43e2-9e84-a6849854a1db"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Components/Features/Rendering Parameters/Features Parameters/Styling/useAccentColor
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5f8cbb51-6e91-4e13-ae44-34e076845aaf"
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Use Accent Color
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "466795a2-96cc-4fb3-9f0d-ce4e4ffacc84"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a3638b6-bc05-41c3-97d2-a53c42025c41"

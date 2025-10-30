@@ -1,0 +1,40 @@
+﻿---
+ID: "75d9d0ba-1e7b-4723-8175-a731181aacea"
+Parent: "8d8252c6-b93b-43a1-959d-7ab0ff749269"
+Template: "ca16cc30-a7ce-4c21-9e7c-6023dd287f37"
+Path: "/sitecore/content/play/play-healthcare/Home/Services/Family Medicine"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6DF5CAC9-7D21-4E1D-B752-2F9237867DEE}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "2d45104f-bccc-4070-b8cd-34936b6336f7"
+      Hint: Content
+      Value: <p>This is my content field&nbsp;</p>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Oncology
+    - ID: "7315b1f6-b42c-43fe-a086-7d46933f7fe3"
+      Hint: Image
+      Value: |
+        <image mediaid="da3ee530-6abe-4c98-b14c-779db8e8ccb4" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a510f529-7591-400e-bdc0-70475dc2fa62"
+    - ID: "9ddacba9-0eb8-4ece-afac-970ee9b05ce2"
+      Hint: Text
+      Value: <p>This is my text field</p>
+    - ID: "d0e2d4f1-b594-4490-a398-4773d2437d81"
+      Hint: Rich Text
+      Value: <p>this is my rich text field</p>
+    - ID: "d20f2456-571f-4627-a8b6-3abe74364503"
+      Hint: Title
+      Value: Family Medicine

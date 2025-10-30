@@ -1,0 +1,37 @@
+﻿---
+ID: "40a1faa2-4704-4115-a6fc-b2125b104f3e"
+Parent: "bae4ad54-552f-40c7-8dd2-62b179443601"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Available Renderings/Page Content"
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {2492BAC4-DA07-4C86-87F0-9873D40E2276}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+    {0A2A2980-8550-4CED-A060-8E42471407FE}
+    {5AD3E889-9AC3-46D3-860B-41E4B631DBB0}
+    {A23FC679-A357-4B29-B7A9-E2DCC85F5CBF}
+    {774CDADC-C936-4BAC-A8D7-4AC6A891C317}
+    {CC2881BB-9F21-4CA0-B3C8-4802FAE3B149}
+    {73BEAC71-A0BE-4B87-A5C9-85221C50E381}
+    {4FEA0006-6062-403E-AF77-771FA7557915}
+    {394DA021-92DC-4161-8E5B-02CF1BFD4CEB}
+    {C7651B31-53EE-4FFC-A355-3414D616A56E}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "102c84aa-08ab-4bff-b4b3-8fe2ed61dc20"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a82607b-a6fb-48e4-8aa0-4a40f3550f5d"

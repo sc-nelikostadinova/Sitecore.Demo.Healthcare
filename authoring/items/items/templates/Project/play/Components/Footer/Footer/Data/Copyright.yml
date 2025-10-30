@@ -1,0 +1,23 @@
+﻿---
+ID: "7e7b90c8-35f6-4b15-aa2e-a9e2b0d1193b"
+Parent: "c15bd8b3-9661-410e-a4b9-e22f43058ff9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Components/Footer/Footer/Data/Copyright
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c50e71bd-310a-4e8b-be45-221a2d7b95ce"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e12f353-ff1c-428d-bd39-8a4a6d42abb4"

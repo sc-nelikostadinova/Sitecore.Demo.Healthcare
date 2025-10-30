@@ -1,0 +1,13 @@
+﻿---
+ID: "04b6d807-5bda-4f2b-8535-d0a23c98fee6"
+Parent: "bc092fa7-fae8-4e88-b4d0-fcaaf36d059d"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/play/Components/Header/Rendering Parameters
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b0e091a-f158-45a7-87e9-fb38ef67f0bc"

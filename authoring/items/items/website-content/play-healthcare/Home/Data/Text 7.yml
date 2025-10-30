@@ -1,0 +1,13 @@
+﻿---
+ID: "d151b467-ff32-48fc-88e1-78335f60340d"
+Parent: "0e63d3eb-f786-499a-8f8c-a8937bf151ee"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/play/play-healthcare/Home/Data/Text 7"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89a4a24b-8f32-487c-a93f-4e3e087ea78f"

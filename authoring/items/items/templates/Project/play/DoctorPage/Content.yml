@@ -1,0 +1,13 @@
+﻿---
+ID: "bda200b0-3221-414c-90f3-3136f14d0ac9"
+Parent: "da9ece73-7e8b-4438-877a-d6b0b9b45b77"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/play/DoctorPage/Content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c219704-1239-4eaa-abfa-d96bc8338ebb"

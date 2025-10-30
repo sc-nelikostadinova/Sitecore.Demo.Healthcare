@@ -1,0 +1,18 @@
+﻿---
+ID: "b2d61c68-67c0-46a9-87be-7f976565144b"
+Parent: "a18ea075-7661-42e7-84ee-6f19355d6985"
+Template: "da26c636-96e1-45e4-88d6-3fcec70d5699"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Headless Variants"
+BranchID: "ab383616-86fa-41a3-bb12-2c478166886f"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C731A7FC-9233-4913-A35B-B6EE5AA35DE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74ac9d70-2084-4fb3-be08-881ba2d9e702"

@@ -1,0 +1,13 @@
+﻿---
+ID: "34e34723-5d86-4a17-b2fd-3d41e81aa28a"
+Parent: "64f7b4bc-876b-47c1-a559-e320e8525981"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/play/Global Elements
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8585cdf7-1a44-4e70-baa9-dfd9b2cfd889"

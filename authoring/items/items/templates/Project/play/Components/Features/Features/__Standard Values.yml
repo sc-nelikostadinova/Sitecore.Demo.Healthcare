@@ -1,0 +1,23 @@
+﻿---
+ID: "1ef8b971-3e15-409e-bdd3-7e9a417c6bc7"
+Parent: "c7884f7e-51ee-4859-a284-9ea50b6d7dd8"
+Template: "c7884f7e-51ee-4859-a284-9ea50b6d7dd8"
+Path: /sitecore/templates/Project/play/Components/Features/Features/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{82AE79DA-E060-41C7-B6AD-17F197F1AB56}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7be476c8-02de-4d4f-8e7e-16921c6d6242"
+- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
+  Hint: __Should Not Organize In Bucket
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ad493a1-c555-4a34-960d-cf2bd80204f3"

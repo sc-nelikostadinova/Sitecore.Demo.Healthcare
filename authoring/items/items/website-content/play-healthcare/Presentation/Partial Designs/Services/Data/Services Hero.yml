@@ -1,0 +1,13 @@
+﻿---
+ID: "d7c56f64-6643-4853-8c78-2ba49fb8487d"
+Parent: "2bc646bd-ef92-4b88-b3bc-a406869c1c8f"
+Template: "97c11946-48e2-4388-ad15-a69d083657db"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Services/Data/Services Hero"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb49fd3a-84d4-4d44-b582-bae24f919f9c"

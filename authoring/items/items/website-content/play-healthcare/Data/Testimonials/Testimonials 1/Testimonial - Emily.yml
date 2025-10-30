@@ -1,0 +1,31 @@
+﻿---
+ID: "08e9debc-fa85-4a50-b130-8188b5581e80"
+Parent: "89cb3a91-0e85-454b-8a8c-1d05b847153d"
+Template: "8f3930e2-0797-44d9-9124-c49c6fff7cec"
+Path: "/sitecore/content/play/play-healthcare/Data/Testimonials/Testimonials 1/Testimonial - Emily"
+BranchID: "4e6d801e-20c1-46c8-9e8f-198ea7574376"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B0067E94-9DD0-497F-B458-5BD2408C0EC7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c8a95d9-e3f6-4d9a-8926-f8eb863871db"
+      Hint: CustomerName
+      Value: Emily T.
+    - ID: "55fa7960-24a4-45db-8603-d4a28fd249e8"
+      Hint: CustomerImage
+      Value: |
+        <image mediaid="6a7e570a-19a3-454f-b4bc-0f37546d4bbd" alt="A woman posing for a photo"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4e47b65-1c63-4c99-a4cd-5ba9b17278ac"
+    - ID: "dbcefe2f-6293-46bc-85d3-a41335951505"
+      Hint: CustomerQuote
+      Value: "The care I received at Play!Health was outstanding. The doctors made me feel confident and cared for every step of the way."

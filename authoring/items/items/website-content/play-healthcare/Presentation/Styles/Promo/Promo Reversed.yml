@@ -1,0 +1,23 @@
+﻿---
+ID: "1bc06c91-14b7-40a0-9e0f-cb50d36dbeaf"
+Parent: "5078ca1c-2c41-4b4d-b88b-737597d5bca9"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Styles/Promo/Promo Reversed"
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "promo-reversed"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: "{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a5b3557b-4de2-4ddd-b5f7-8ecf358e7d3f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca6514a7-e239-459d-a840-f26eb3bcca54"

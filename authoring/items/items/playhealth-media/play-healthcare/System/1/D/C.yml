@@ -1,0 +1,13 @@
+﻿---
+ID: "b36ed101-e620-43a6-a06b-9b82b89d5ef6"
+Parent: "01873eb9-2332-473b-8cf0-d60f6d4dede7"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/play/play-healthcare/System/1/D/C"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63a3741e-bc88-4e1c-97d5-999f50c50adb"

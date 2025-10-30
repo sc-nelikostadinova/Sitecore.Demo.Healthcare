@@ -1,0 +1,24 @@
+﻿---
+ID: "87dbeaa1-c4a3-4b5e-ace7-3d31234c7bf0"
+Parent: "0e63d3eb-f786-499a-8f8c-a8937bf151ee"
+Template: "60c9ac62-4227-443e-8980-92c97e483832"
+Path: "/sitecore/content/play/play-healthcare/Home/Data/LinkList1"
+BranchID: "f2490b61-7d7d-4bbf-8cf6-3b355fdf4ce4"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{30FCF06D-196A-4021-8544-C22A5E0B6B1C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f85b0e8-7c98-47a0-bc38-d8d13b7bf652"
+    - ID: "dc9aaee9-fc44-458d-a9fb-bac61d8b0234"
+      Hint: Title
+      Value: Link List Title

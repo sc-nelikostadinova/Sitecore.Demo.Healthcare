@@ -1,0 +1,50 @@
+﻿---
+ID: "d2ba02a5-b1c0-435d-ac5b-6c5a0a0437d4"
+Parent: "f1ab5368-6202-4acf-b27f-ab80be5e6bb1"
+Template: "da9ece73-7e8b-4438-877a-d6b0b9b45b77"
+Path: "/sitecore/content/play/play-healthcare/Home/Doctors/David Vassilakis"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A3619CFA-B361-423E-B572-07517E11FF91}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b1f9c5e4-f986-4cfa-b5dd-ca8bba3a777c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: 
+    - ID: "39e9ab13-eadf-4124-af4d-9548e257d0a2"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Dr. David Vassilakis is a highly skilled neurosurgeon recognized for his expertise in complex brain and spine procedures. He is committed to combining advanced surgical techniques with a patient-centered approach, ensuring every individual receives care tailored to their unique needs. Known for his precision in the operating room, Dr. Vassilakis also places great emphasis on communication, guiding patients and families with clarity and compassion throughout the treatment journey. His dedication extends beyond clinical practice, as he actively engages in research and education aimed at advancing neurosurgical methods and improving patient outcomes. By blending innovation with empathy, Dr. Vassilakis remains devoted to enhancing quality of life and providing the highest standard of neurological care.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: David Vassilakis
+    - ID: "5409e115-0e08-4a2e-a9f5-e307935dc47b"
+      Hint: JobTitle
+      Value: Neurosurgeon
+    - ID: "5b7074aa-e00c-4771-af0a-d0af0156cbc2"
+      Hint: FullName
+      Value: David Vassilakis
+    - ID: "84adcba3-3442-40c9-bb95-e720cd0e4b2c"
+      Hint: Photo
+      Value: |
+        <image mediaid="{2161790B-FF22-4B14-9AAD-EA184FFAC36C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f7de4bb-056b-4a4c-8417-8398c1728042"
+    - ID: "92a96136-b571-400d-bb41-af230dde3691"
+      Hint: Title
+      Value: David Vassilakis

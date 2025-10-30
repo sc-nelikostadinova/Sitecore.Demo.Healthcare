@@ -1,0 +1,20 @@
+﻿---
+ID: "4dfc0213-358a-4277-9b6d-3c473b43f0de"
+Parent: "f1ab5368-6202-4acf-b27f-ab80be5e6bb1"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/play/play-healthcare/Home/Doctors/Data"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ec84e46f-1ec6-4279-a599-307ef01eb74f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac91b567-c096-45c8-aa2f-8009e9e84e6d"

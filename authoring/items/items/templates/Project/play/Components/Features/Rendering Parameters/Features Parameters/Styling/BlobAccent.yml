@@ -1,0 +1,23 @@
+﻿---
+ID: "c96e812e-1121-4590-a167-037a6cdaff1e"
+Parent: "d6c929a4-eff8-43e2-9e84-a6849854a1db"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Components/Features/Rendering Parameters/Features Parameters/Styling/BlobAccent
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "113fe513-a5a2-4bba-b70b-2150919c08dd"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99f57e96-4a43-4ae6-aafd-b06b51eb90dc"

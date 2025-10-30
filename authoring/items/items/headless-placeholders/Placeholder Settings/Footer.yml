@@ -1,24 +1,15 @@
 ﻿---
-ID: "dffee92b-0441-45a4-9207-67810b72bd46"
-Parent: "895e25c4-12b2-4b2c-8233-82f3b79eef53"
-Template: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
-Path: /sitecore/system/Settings/Services/Rendering Hosts/Default
+ID: "49e56593-bb61-41ca-8b9a-806b11486366"
+Parent: "d0b8e95c-6ced-4423-bc03-4f5b140d9b00"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Foundation/JSS Experience Accelerator/Placeholder Settings/Footer
 SharedFields:
-- ID: "3121c257-53cf-464a-b736-98b418876057"
-  Hint: AppName
-  Value: Default
-- ID: "94470b31-e282-4d8d-bc54-85689efb294c"
-  Hint: ServerSideRenderingEngineConfigUrl
-  Value: "https://xmc-722jqhujtw31mugfy6oc8a-eh.sitecorecloud.io:443/api/editing/config"
-- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
-  Hint: __Read Only
-  Value: 1
-- ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
-  Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmc-722jqhujtw31mugfy6oc8a-eh.sitecorecloud.io/"
-- ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
-  Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmc-722jqhujtw31mugfy6oc8a-eh.sitecorecloud.io:443/api/editing/render"
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "headless-footer"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: 
 Languages:
 - Language: "de-DE"
   Fields:
@@ -27,7 +18,7 @@ Languages:
     Value: "{383844E7-4E28-4D45-AE48-640380EF63D8}"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Default
+    Value: Footer
   Versions:
   - Version: 1
     Fields:
@@ -35,12 +26,16 @@ Languages:
       Hint: __Revision
       Value: "{1EB7272F-8314-463E-A3CD-0FE6977E5E53}"
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "986522ec-d58b-403f-b3c6-aa2a94164d53"
+      Value: "f05fe4a5-a095-4c26-a1fb-832391fe9556"
 - Language: "ja-JP"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -48,7 +43,7 @@ Languages:
     Value: "{383844E7-4E28-4D45-AE48-640380EF63D8}"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: デフォルト
+    Value: フッター
   Versions:
   - Version: 1
     Fields:
@@ -62,7 +57,7 @@ Languages:
     Value: "{383844E7-4E28-4D45-AE48-640380EF63D8}"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 默认
+    Value: 页脚
   Versions:
   - Version: 1
     Fields:

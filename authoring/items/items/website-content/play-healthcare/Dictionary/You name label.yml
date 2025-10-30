@@ -1,0 +1,27 @@
+﻿---
+ID: "6b7f773f-1710-41e2-89d4-ed3395a38b58"
+Parent: "cbe9686c-76de-4d29-912c-7a7397f38bd9"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: "/sitecore/content/play/play-healthcare/Dictionary/You name label"
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: your_name
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3ce2904a-9e95-45c1-bf8d-08292f0622e9"
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Your name
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b0b74755-92ea-4dae-b4f0-ad588fef0860"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38aef8dd-c47c-486d-b8af-a34143109485"

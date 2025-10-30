@@ -1,0 +1,24 @@
+﻿---
+ID: "550934f1-2069-4a64-98ed-ec26a08c7798"
+Parent: "8cd13605-412f-42f0-82d7-8fd95a049fa2"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Page Designs/DoctorPage"
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "a7480d03-6c6a-4fec-8e9c-7bebf55c35c1|5d5288f7-1147-4d23-8557-e860fe561c73|ce4e5e03-07a5-429d-8131-f0a983a4214a"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3C893D8C-7249-4FB1-89E4-8526BEC8BF7B}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "56c92463-c7c6-448c-9113-7d72b6ce4f46"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0276432f-3ccc-4de9-806d-04b46b05b824"

@@ -1,0 +1,47 @@
+﻿---
+ID: "87482563-ed64-44da-8a30-b3e178d3bd73"
+Parent: "f1ab5368-6202-4acf-b27f-ab80be5e6bb1"
+Template: "da9ece73-7e8b-4438-877a-d6b0b9b45b77"
+Path: "/sitecore/content/play/play-healthcare/Home/Doctors/Alina Moreau"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DB34F20B-FC25-41AD-915C-C5730C5138A1}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e671b012-10c9-4de4-949f-bda41df1ad66"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "39e9ab13-eadf-4124-af4d-9548e257d0a2"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>With years of experience in dermatology, Dr. Aline Moreau is committed to helping patients achieve healthy, radiant skin. She provides medical, surgical, and cosmetic care, emphasizing treatments that address both immediate concerns and long-term skin wellness. Her approach is centered on understanding the unique needs of each patient, offering guidance that blends clinical knowledge with a focus on overall confidence and well-being. Dr. Moreau believes in the power of preventive care as much as treatment, ensuring patients feel empowered to maintain their skin health. She also participates in ongoing education and professional collaboration, continually refining her skills to deliver the most effective dermatological solutions.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Alina Moreau
+    - ID: "5409e115-0e08-4a2e-a9f5-e307935dc47b"
+      Hint: JobTitle
+      Value: Dermatologist
+    - ID: "5b7074aa-e00c-4771-af0a-d0af0156cbc2"
+      Hint: FullName
+      Value: Alina Moreau 
+    - ID: "84adcba3-3442-40c9-bb95-e720cd0e4b2c"
+      Hint: Photo
+      Value: |
+        <image mediaid="39c705f5-44e4-4b63-8c9d-e4aac5ff49be" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf9e93d5-a05f-4913-8059-191e8c631f6a"
+    - ID: "92a96136-b571-400d-bb41-af230dde3691"
+      Hint: Title
+      Value: Alina Moreau

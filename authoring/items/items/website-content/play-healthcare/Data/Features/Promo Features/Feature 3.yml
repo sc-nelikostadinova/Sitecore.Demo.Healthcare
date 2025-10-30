@@ -1,0 +1,35 @@
+﻿---
+ID: "b79d04fa-bf60-4681-92bc-d36a871f834f"
+Parent: "46470f72-ab5e-4b91-a436-51e8a2baa89a"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Promo Features/Feature 3"
+BranchID: "2fc7612a-cda5-4ce4-a1bc-2dd5e65c67ab"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{954E8125-A909-44DD-B403-9E270445CA70}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04b12693-fab9-4aac-8509-10c0cab37b5f"
+      Hint: FeatureDescription
+      Value: From routine medical care to complex surgical procedures, we offer comprehensive solutions tailored to your unique healthcare needs.
+    - ID: "4841f77f-0d1d-4f22-9282-fbc6673942b4"
+      Hint: FeatureIcon
+      Value: |
+        <image mediaid="65a0c66f-3d54-44f0-8a6d-059a06d573b6" />
+    - ID: "5b0eb9a7-c2c0-4968-802f-a3769ffb1ab2"
+      Hint: FeatureHeading
+      Value: Medical & Surgical
+    - ID: "5d2aa9a2-dfca-4afc-930b-d1c3cb57beef"
+      Hint: FeatureIconDark
+      Value: |
+        <image mediaid="f978e129-7a30-4ac8-bfdd-5dcd8d9a43fc" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd4fe8b5-cad5-4730-a686-0d737db7877b"

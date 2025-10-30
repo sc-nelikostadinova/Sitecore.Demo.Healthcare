@@ -1,0 +1,31 @@
+﻿---
+ID: "041cc055-74a8-4beb-bf7a-75bef92dd226"
+Parent: "a15b2cba-c730-4ead-9749-add8cbf16af3"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/play/play-healthcare/Data/Promos/About us"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText
+      Value: |
+        <div class="ck-content"><p>We are committed to redefining healthcare by combining innovation, compassion, and expertise. Our mission is to provide accessible, high-quality medical services tailored to your needs, whether it's urgent care, routine check-ups, or specialized treatments.&nbsp;</p><p>&nbsp;</p><p>With a patient-first approach and state-of-the-art facilities, we ensure your health is always in the best hands.&nbsp;</p><p>&nbsp;</p><p>Your well-being is our priority, every step of the way.&nbsp;</p><p>&nbsp;</p><p>Ready to take charge of your health?</p></div>
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoTitle
+      Value: About us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "316e7afd-b467-471a-9a1e-a6d89c3883a1"
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="internal" id="1dcca542-9bca-47db-acd2-0ac28c15052d" anchor="" querystring="" target="" class="" text="Get started" title=""/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoImage
+      Value: |
+        <image mediaid="c00766ea-3097-4091-9f4c-a0edcc2b363e" />

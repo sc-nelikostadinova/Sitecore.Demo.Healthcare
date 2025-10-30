@@ -1,0 +1,13 @@
+﻿---
+ID: "5d6e54ec-96ae-42c2-a0d9-c97a26f7542e"
+Parent: "b12d1248-62d0-4d24-95f2-66a9cfdd1da4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/play/Components/HeroBanner/Rendering Parameters/HeroBanner Parameters/Visual Accents
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f54e451-c15e-40ab-ae06-c92b6fdddd0c"

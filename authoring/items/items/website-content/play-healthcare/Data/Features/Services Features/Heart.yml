@@ -1,0 +1,25 @@
+﻿---
+ID: "fee36188-997f-4116-a7f8-5e74ee19e20b"
+Parent: "a7385f94-63e0-4e8b-83bb-7f83a6f10f82"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Services Features/Heart"
+BranchID: "2fc7612a-cda5-4ce4-a1bc-2dd5e65c67ab"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{954E8125-A909-44DD-B403-9E270445CA70}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "59740790-103c-41ee-8424-b7ade2eb2a22"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Heart
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4484e439-e17a-4f26-a20c-7b8a5029c525"

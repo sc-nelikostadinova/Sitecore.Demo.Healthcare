@@ -1,0 +1,13 @@
+﻿---
+ID: "3b3b218c-83a1-43ab-9fb2-5b4c73e7b7b7"
+Parent: "3aec5958-b611-40b2-bb76-be35eb395488"
+Template: "3aec5958-b611-40b2-bb76-be35eb395488"
+Path: /sitecore/templates/Project/play/Components/ThemeSwitcher/Rendering Parameters/ThemeSwitcher Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c78da767-d272-45cd-b2cf-e15882d68519"

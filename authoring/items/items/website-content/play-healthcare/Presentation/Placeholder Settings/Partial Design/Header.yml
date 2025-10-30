@@ -1,0 +1,20 @@
+﻿---
+ID: "a44d63fe-da12-4105-b42a-dcc596098b95"
+Parent: "7f5dac24-ab38-4ad4-afd4-6d43fd029f94"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Placeholder Settings/Partial Design/Header"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-header"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "150deb54-aa1b-4110-9cea-b0db4dab3dc3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c06626a0-fb3b-4b6d-8d39-f63ac28cf68f"

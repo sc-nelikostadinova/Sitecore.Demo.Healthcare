@@ -1,0 +1,26 @@
+﻿---
+ID: "44581f1d-eb0c-425a-8598-5677e117deda"
+Parent: "589e5d19-1b4e-4eac-aa16-588cc2c8f202"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: "/sitecore/content/play/play-healthcare/Media"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "32cbfcf4-4c6f-466f-9ce9-d01b6765daa6"
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Value: |
+    {905C8FE0-5A01-47EB-AE30-FBFCB8E0C762}
+    {F39E0F79-A4AF-47D6-86AC-55A815DE3002}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A7F39EA2-9018-4622-891D-CB65627E5AF2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ab7f107-f173-4685-aac0-303bf402f058"

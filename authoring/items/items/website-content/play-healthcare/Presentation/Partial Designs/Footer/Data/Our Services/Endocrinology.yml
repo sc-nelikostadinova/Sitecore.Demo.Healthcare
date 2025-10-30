@@ -1,0 +1,31 @@
+﻿---
+ID: "5f800db5-83e8-4720-93c9-3e3068d7cacd"
+Parent: "f2a2c215-439d-4135-946d-a9bdb2d65582"
+Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Footer/Data/Our Services/Endocrinology"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a6f297ab-0c14-4e5c-8d93-dccc8c9b5539"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "e7758b05-a5d4-4c22-a0f6-2bdfcecf4716"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Endocrinology
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link id="{8d8252c6-b93b-43a1-959d-7ab0ff749269}" text="Endocrinology" title="" querystring="sc_lang=en&amp;sc_site=PLAY%21+Healthcare" anchor="" target="" linktype="internal"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d10f5731-2741-4737-8819-c06b1575bcc1"

@@ -1,0 +1,48 @@
+﻿---
+ID: "8a467723-d2e0-43a0-956b-d53daf15ff11"
+Parent: "a3a6d193-3c74-4c22-8ba0-1cf9c1ead4f0"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Our Special Services/Laboratory Tests"
+BranchID: "2fc7612a-cda5-4ce4-a1bc-2dd5e65c67ab"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "638959ad-fc7b-469c-af17-d813eab0f18c"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{16EAF27F-C49B-4538-890D-FC1423FD5D24}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "83385c21-d32b-4738-a793-54cbbb3d168f"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04b12693-fab9-4aac-8509-10c0cab37b5f"
+      Hint: FeatureDescription
+      Value: "Get fast, accurate, and reliable diagnostic results with our state-of-the-art laboratory facilities. From routine blood work to advanced screenings, we’ve got you covered."
+    - ID: "4841f77f-0d1d-4f22-9282-fbc6673942b4"
+      Hint: FeatureIcon
+      Value: |
+        <image mediaid="79dd5b95-9857-4b5d-a4e4-36dd2effd7ae" alt="an icon of a computer"/>
+    - ID: "5b0eb9a7-c2c0-4968-802f-a3769ffb1ab2"
+      Hint: FeatureHeading
+      Value: Laboratory Tests
+    - ID: "5d2aa9a2-dfca-4afc-930b-d1c3cb57beef"
+      Hint: FeatureIconDark
+      Value: |
+        <image mediaid="79dd5b95-9857-4b5d-a4e4-36dd2effd7ae" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1fd894f-1dcc-4602-bdaa-a25aaad4dcd6"

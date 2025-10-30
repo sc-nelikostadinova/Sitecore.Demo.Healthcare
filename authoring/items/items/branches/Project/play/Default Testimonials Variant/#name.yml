@@ -1,0 +1,13 @@
+﻿---
+ID: "0778bab0-3a9b-43c0-be3c-2f27d8d31e62"
+Parent: "eb634092-48bc-4cfa-ad20-2f3400011124"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Branches/Project/play/Default Testimonials Variant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0730805-0e92-4df8-be1c-ff9021b3a164"

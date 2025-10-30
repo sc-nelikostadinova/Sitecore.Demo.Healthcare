@@ -1,0 +1,35 @@
+﻿---
+ID: "94dd7a6a-8bff-4542-a4f9-a306b01cfa8f"
+Parent: "46470f72-ab5e-4b91-a436-51e8a2baa89a"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Promo Features/Feature 2"
+BranchID: "2fc7612a-cda5-4ce4-a1bc-2dd5e65c67ab"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD40D94-D616-4090-BF60-131D30DED30F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04b12693-fab9-4aac-8509-10c0cab37b5f"
+      Hint: FeatureDescription
+      Value: With our free ambulance service, we ensure swift and safe transportation whenever you need it most—because your health comes first.
+    - ID: "4841f77f-0d1d-4f22-9282-fbc6673942b4"
+      Hint: FeatureIcon
+      Value: |
+        <image mediaid="74647c93-7b76-401f-8649-ea89bcdc8ae7" />
+    - ID: "5b0eb9a7-c2c0-4968-802f-a3769ffb1ab2"
+      Hint: FeatureHeading
+      Value: Free Ambulance Car
+    - ID: "5d2aa9a2-dfca-4afc-930b-d1c3cb57beef"
+      Hint: FeatureIconDark
+      Value: |
+        <image mediaid="8f6b8085-d678-4d23-af22-cbecc8c17132" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ac28fbd-6adf-452f-af4a-da800e6f47ed"
