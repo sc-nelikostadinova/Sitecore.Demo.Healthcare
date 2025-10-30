@@ -1,0 +1,15 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "PlayHealthWebsite-Media",
+    "references": [ "PlayHealthWebsite" ],
+    "items": {
+        "includes": [
+            {
+                "name": "playhealth-media",
+                "path": "/sitecore/media library/Project/play/play-healthcare",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateOnly"
+            }
+        ]
+    }
+}
