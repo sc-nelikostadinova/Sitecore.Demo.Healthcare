@@ -1,11 +1,5 @@
 import React, { useState, JSX } from 'react';
-import {
-  Link,
-  LinkField,
-  Text,
-  TextField,
-  useSitecore,
-} from '@sitecore-content-sdk/nextjs';
+import { Link, LinkField, Text, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faChevronDown, faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons';
 

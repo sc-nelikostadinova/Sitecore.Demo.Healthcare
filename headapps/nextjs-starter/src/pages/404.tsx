@@ -1,5 +1,4 @@
 import { JSX } from 'react';
-import scConfig from 'sitecore.config';
 import {
   ErrorPagesService,
   SitecoreProvider,

@@ -1,5 +1,4 @@
 import {
-  EditMode,
   Field,
   ImageField,
   NextImage as JssImage,

@@ -9,7 +9,6 @@ import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import Layout from 'src/Layout';
 import components from '.sitecore/component-map';
 import { GetStaticProps } from 'next';
-import scConfig from 'sitecore.config';
 import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 
