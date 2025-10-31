@@ -61,7 +61,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   }
 
   const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, flag?: boolean): void => {
-    if (event && page?.pageEditing) {
+    if (event && page?.mode.isEditing) {
       event.preventDefault();
     }
 
