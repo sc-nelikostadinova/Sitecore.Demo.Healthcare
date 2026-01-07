@@ -1,0 +1,13 @@
+﻿---
+ID: "0212bedf-19ea-47dc-8852-47af8cdb0264"
+Parent: "3bbdd00b-8665-4b5a-b700-46dbcad0c592"
+Template: "b762d567-87f5-493c-bb48-0c455d834457"
+Path: "/sitecore/content/play/play-healthcare/Data/Texts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d5c4e7a-2e1e-47dd-a570-632307a87056"

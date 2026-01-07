@@ -1,0 +1,13 @@
+﻿---
+ID: "0ee9b72b-c2cc-4f27-8063-d6e133c9f77c"
+Parent: "6eee61c9-f529-409b-b323-5534abc40d69"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/play/Components/Features/Rendering Parameters
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31cf4784-0551-4e55-9fde-afd0c58e88b7"

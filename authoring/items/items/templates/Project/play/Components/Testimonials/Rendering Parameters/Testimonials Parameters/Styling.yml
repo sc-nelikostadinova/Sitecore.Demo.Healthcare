@@ -1,0 +1,13 @@
+﻿---
+ID: "345da47f-1e51-4cb3-ba45-35666cfb2b05"
+Parent: "c97ce2f5-d6c1-4628-a901-508265b0fda4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/play/Components/Testimonials/Rendering Parameters/Testimonials Parameters/Styling
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65f0a02c-f064-40de-ac31-8adbde0811d9"

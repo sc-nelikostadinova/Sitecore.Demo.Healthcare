@@ -1,0 +1,22 @@
+﻿---
+ID: "4f302137-e54e-4520-9800-e7045592d883"
+Parent: "166b589f-29f2-446d-abcd-e7a323b269aa"
+Template: "166b589f-29f2-446d-abcd-e7a323b269aa"
+Path: /sitecore/templates/Project/play/Components/HeroBanner/HeroBanner Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {97C11946-48E2-4388-AD15-A69D083657DB}
+    {166B589F-29F2-446D-ABCD-E7A323B269AA}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b2d9547b-f447-4265-964f-c7a761d6931d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0556946b-318a-4e1f-80a5-713fbae86fc6"

@@ -1,0 +1,23 @@
+﻿---
+ID: "e639b0bf-238c-4a56-bf9c-0baa3eff115b"
+Parent: "3ea80f48-fbac-405b-94b8-99f864d9ba0c"
+Template: "7c4e03b4-bb6b-4fad-ab45-fc3e6fd7f425"
+Path: "/sitecore/content/play/play-healthcare/Data/Content Sections/Our Special Doctors"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "027b5b51-f0dd-4d8e-85ae-beee8d730f75"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Our specialists come from diverse fields of medicine, combining years of experience with cutting-edge practices to provide personalized care. Whether it’s preventive care, diagnostics, or advanced treatments, our doctors are committed to guiding you on your journey to optimal health.</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d554c2d-9f28-4ede-9509-abcd89f924d2"
+    - ID: "d0d7e994-0d51-45bb-9bc8-02a80da1ef85"
+      Hint: Heading
+      Value: Our Special Doctors

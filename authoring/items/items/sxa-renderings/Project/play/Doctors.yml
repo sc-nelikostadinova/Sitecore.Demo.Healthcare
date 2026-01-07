@@ -1,0 +1,13 @@
+﻿---
+ID: "5a026237-d753-4e9c-8514-2e8432da68d9"
+Parent: "64f7b4bc-876b-47c1-a559-e320e8525981"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/play/Doctors
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2004c36e-7dcc-4109-b825-5374d9ce6420"

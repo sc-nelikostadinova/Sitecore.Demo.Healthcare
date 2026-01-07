@@ -1,0 +1,22 @@
+﻿---
+ID: "be901080-c1db-4d7f-8684-118ec73eaa46"
+Parent: "fffb7678-4978-4b1d-9949-99d923d42442"
+Template: "fffb7678-4978-4b1d-9949-99d923d42442"
+Path: /sitecore/templates/Project/play/Components/Footer/Footer Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {EFB21B22-26BD-402E-BCE3-8FADBBE7FB5D}
+    {FFFB7678-4978-4B1D-9949-99D923D42442}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "40af6807-9645-4b7a-8176-3b68864236ac"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f06a58f8-c137-4bf6-a504-76419681cfc3"

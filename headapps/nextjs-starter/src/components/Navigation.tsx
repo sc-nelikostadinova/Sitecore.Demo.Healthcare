@@ -1,11 +1,5 @@
-import React, { useState } from 'react';
-import {
-  Link,
-  LinkField,
-  Text,
-  TextField,
-  useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import React, { useState, JSX } from 'react';
+import { Link, LinkField, Text, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faChevronDown, faChevronUp, faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -51,7 +45,7 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 
 export const Default = (props: NavigationProps): JSX.Element => {
   const [isOpenMenu, openMenu] = useState(false);
-  const { sitecoreContext } = useSitecoreContext();
+  const { page } = useSitecore();
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trimEnd()
@@ -67,7 +61,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   }
 
   const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, flag?: boolean): void => {
-    if (event && sitecoreContext?.pageEditing) {
+    if (event && page?.mode.isEditing) {
       event.preventDefault();
     }
 
@@ -115,7 +109,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
 };
 
 const NavigationList = (props: NavigationProps) => {
-  const { sitecoreContext } = useSitecoreContext();
+  const { page } = useSitecore();
   const [active, setActive] = useState(false);
   const classNameList = `${props?.fields?.Styles.concat('rel-level' + props.relativeLevel).join(
     ' '
@@ -147,7 +141,7 @@ const NavigationList = (props: NavigationProps) => {
       <div className="flex items-center gap-1">
         <Link
           field={getLinkField(props)}
-          editable={sitecoreContext.pageEditing}
+          editable={page.mode.isEditing}
           onClick={props.handleClick}
           className="whitespace-nowrap"
         >

@@ -1,0 +1,24 @@
+﻿---
+ID: "328a4f16-eeae-4571-bff3-512809aa92d0"
+Parent: "8d8252c6-b93b-43a1-959d-7ab0ff749269"
+Template: "ca16cc30-a7ce-4c21-9e7c-6023dd287f37"
+Path: "/sitecore/content/play/play-healthcare/Home/Services/Oncology"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E04A1500-F6F2-4F8D-B9AF-A38D84C77103}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Oncology
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7ba29ba-3225-4f3d-925c-b523d6d519d4"
+    - ID: "d20f2456-571f-4627-a8b6-3abe74364503"
+      Hint: Title
+      Value: Oncology

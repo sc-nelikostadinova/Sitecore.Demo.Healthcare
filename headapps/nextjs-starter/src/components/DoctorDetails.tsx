@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import {
   Text as JssText,
   NextImage as JssImage,
@@ -6,9 +6,9 @@ import {
   ImageField,
   RichTextField,
   RichText as JssRichText,
-  withSitecoreContext,
+  withSitecore,
   SitecoreContextValue,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 
 export interface Doctor {
   FullName: Field<string>;
@@ -18,7 +18,7 @@ export interface Doctor {
 }
 
 type DoctorDetailsProps = {
-  sitecoreContext: SitecoreContextValue;
+  page: SitecoreContextValue;
   params: { [key: string]: string };
   fields: Doctor;
 };
@@ -48,4 +48,4 @@ const DefaultDoctorDetails = (props: DoctorDetailsProps): JSX.Element => {
   );
 };
 
-export const Default = withSitecoreContext()<DoctorDetailsProps>(DefaultDoctorDetails);
+export const Default = withSitecore()<DoctorDetailsProps>(DefaultDoctorDetails);

@@ -1,0 +1,29 @@
+﻿---
+ID: "32a2f95a-e4f5-48e5-b6b9-55ae25ba3b00"
+Parent: "d6508be8-cc33-495a-a28e-c044a7eef9cc"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Project/play/Available Headless play Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {0A2A2980-8550-4CED-A060-8E42471407FE}
+    {5AD3E889-9AC3-46D3-860B-41E4B631DBB0}
+    {A23FC679-A357-4B29-B7A9-E2DCC85F5CBF}
+    {774CDADC-C936-4BAC-A8D7-4AC6A891C317}
+    {CC2881BB-9F21-4CA0-B3C8-4802FAE3B149}
+    {73BEAC71-A0BE-4B87-A5C9-85221C50E381}
+    {4FEA0006-6062-403E-AF77-771FA7557915}
+    {394DA021-92DC-4161-8E5B-02CF1BFD4CEB}
+    {C7651B31-53EE-4FFC-A355-3414D616A56E}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c529e625-4927-4abb-8b9f-3dd40b8c60e2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b3d4231-8438-4e2c-89bb-e739fb92e749"

@@ -1,0 +1,47 @@
+﻿---
+ID: "55f39209-2ea2-417d-badb-2b7d51c8c87e"
+Parent: "f1ab5368-6202-4acf-b27f-ab80be5e6bb1"
+Template: "da9ece73-7e8b-4438-877a-d6b0b9b45b77"
+Path: "/sitecore/content/play/play-healthcare/Home/Doctors/Julian Ramires"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1E1BA337-2DC0-4037-9A3F-08C09C92FF91}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6d7bbe8c-eac6-4c18-9a0d-5a1e32832a4d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "39e9ab13-eadf-4124-af4d-9548e257d0a2"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Focused on creating confident smiles, Dr. Julian Ramires offers comprehensive dental care that blends precision with comfort. From preventive services to advanced restorative treatments, he takes a patient-centered approach designed to promote lifelong oral health. His philosophy is rooted in building trust with patients, ensuring that every visit is a positive and comfortable experience. Dr. Ramires is dedicated to educating patients about oral hygiene and empowering them to take an active role in their dental care. Known for his approachable manner and attention to detail, he strives to deliver outcomes that improve both health and confidence. He remains committed to advancing dental techniques and technologies to continually enhance the quality of care he provides.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Julian Ramires
+    - ID: "5409e115-0e08-4a2e-a9f5-e307935dc47b"
+      Hint: JobTitle
+      Value: Dentist
+    - ID: "5b7074aa-e00c-4771-af0a-d0af0156cbc2"
+      Hint: FullName
+      Value: Julian Ramires
+    - ID: "84adcba3-3442-40c9-bb95-e720cd0e4b2c"
+      Hint: Photo
+      Value: |
+        <image mediaid="baf7c94a-199c-497f-adbb-aac1bf3c949e" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb5f8a9f-f56a-4439-ba28-6316e7646f7f"
+    - ID: "92a96136-b571-400d-bb41-af230dde3691"
+      Hint: Title
+      Value: Julian Ramires

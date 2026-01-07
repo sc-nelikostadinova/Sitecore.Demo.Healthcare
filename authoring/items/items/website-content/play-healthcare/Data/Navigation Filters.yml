@@ -1,0 +1,13 @@
+﻿---
+ID: "52a1d2cf-8824-4116-8479-b860ae29d4bf"
+Parent: "3bbdd00b-8665-4b5a-b700-46dbcad0c592"
+Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
+Path: "/sitecore/content/play/play-healthcare/Data/Navigation Filters"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "48a0d1a8-7601-4dc8-a199-53801a8013cf"

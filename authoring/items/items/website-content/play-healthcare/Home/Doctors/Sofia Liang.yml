@@ -1,0 +1,47 @@
+﻿---
+ID: "0b1e72e6-17c0-4aec-8fe5-7a3aef79232a"
+Parent: "f1ab5368-6202-4acf-b27f-ab80be5e6bb1"
+Template: "da9ece73-7e8b-4438-877a-d6b0b9b45b77"
+Path: "/sitecore/content/play/play-healthcare/Home/Doctors/Sofia Liang"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{38C5DEB0-5CB8-48B2-90F8-DDCB872E85B2}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e3cabd60-94e2-41f5-a966-753e9467c75e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "39e9ab13-eadf-4124-af4d-9548e257d0a2"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Guided by a commitment to patient well-being, Dr. Sofia Liang helps individuals manage complex hormonal and metabolic conditions. She tailors treatment plans with both clinical expertise and compassion, empowering patients to achieve healthier, balanced lives. Her work emphasizes the importance of understanding each patient’s unique journey, ensuring they feel supported throughout the process of diagnosis, treatment, and long-term care. Dr. Liang is passionate about educating patients on their conditions, fostering collaboration and trust in the management of their health. She also remains actively engaged in the evolving field of endocrinology, continuously seeking new approaches that can enhance outcomes and improve quality of life for those she serves.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofia Liang
+    - ID: "5409e115-0e08-4a2e-a9f5-e307935dc47b"
+      Hint: JobTitle
+      Value: Endocrinologist
+    - ID: "5b7074aa-e00c-4771-af0a-d0af0156cbc2"
+      Hint: FullName
+      Value: Sofia Liang
+    - ID: "84adcba3-3442-40c9-bb95-e720cd0e4b2c"
+      Hint: Photo
+      Value: |
+        <image mediaid="95024331-dfc9-4ee6-bf96-afd60bc0e519" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9aa3cff-7932-4c82-a510-be57399e5b35"
+    - ID: "92a96136-b571-400d-bb41-af230dde3691"
+      Hint: Title
+      Value: Sofia Liang

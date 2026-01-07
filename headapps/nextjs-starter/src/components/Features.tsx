@@ -1,5 +1,6 @@
 'use client';
 
+import { JSX } from 'react';
 import { IGQLImageField, IGQLRichTextField, IGQLTextField } from 'src/types/igql';
 import {
   Text as JssText,
@@ -8,7 +9,7 @@ import {
   withDatasourceCheck,
   ComponentRendering,
   ComponentParams,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { isEnabled } from 'src/helpers/isEnabled';
 import BlobAccent from './shapes/BlobAccent';
 

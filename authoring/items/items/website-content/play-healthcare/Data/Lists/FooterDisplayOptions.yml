@@ -1,0 +1,13 @@
+﻿---
+ID: "6f65816c-6186-4c5c-ab39-a5187200f9e6"
+Parent: "b924479b-7594-41c6-b3a8-ffee296d497f"
+Template: "0a92feee-0e15-4e81-b044-2ad901b88ddd"
+Path: "/sitecore/content/play/play-healthcare/Data/Lists/FooterDisplayOptions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11fa59ff-c592-4ad5-9f3d-a3a6f3e10660"

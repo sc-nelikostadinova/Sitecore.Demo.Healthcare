@@ -1,0 +1,13 @@
+﻿---
+ID: "77b1ddbf-1f9e-4081-b755-33d30eb43d91"
+Parent: "862d5ab2-20b5-440c-a190-f8a3869cc049"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Headless Variants/Features/Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ff23f6a-52b9-490c-a2b3-4a4997bba11b"

@@ -1,0 +1,23 @@
+﻿---
+ID: "e14d5cb2-088f-4011-bd37-bfef868d00c7"
+Parent: "1b1bf555-2d0c-4f09-8b5d-5cd679fd12bc"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Services Page/Content/Link
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link with Search
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0edb4113-e7db-4c9a-817b-e50a278a0380"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1830dcbe-d8bc-4e09-911f-42544664f0e3"

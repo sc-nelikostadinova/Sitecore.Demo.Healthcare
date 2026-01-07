@@ -1,0 +1,13 @@
+﻿---
+ID: "a15b2cba-c730-4ead-9749-add8cbf16af3"
+Parent: "3bbdd00b-8665-4b5a-b700-46dbcad0c592"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: "/sitecore/content/play/play-healthcare/Data/Promos"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19c2195b-fa43-4ecc-b480-e8fe457fc324"

@@ -1,0 +1,27 @@
+﻿---
+ID: "3297f7bb-4b5b-4126-867d-fb5f3bc18f81"
+Parent: "a3a6d193-3c74-4c22-8ba0-1cf9c1ead4f0"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Our Special Services/Dental"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04b12693-fab9-4aac-8509-10c0cab37b5f"
+      Hint: FeatureDescription
+      Value: "Keep your smile healthy and bright with our complete range of dental services. From routine cleanings to advanced restorative care, we make every visit comfortable and stress-free."
+    - ID: "4841f77f-0d1d-4f22-9282-fbc6673942b4"
+      Hint: FeatureIcon
+      Value: |
+        <Image mediaid="cca9534c-7b23-4da5-a360-601fe62b7cb6" alt="Icon of a tooth"/>
+    - ID: "5b0eb9a7-c2c0-4968-802f-a3769ffb1ab2"
+      Hint: FeatureHeading
+      Value: Dental
+    - ID: "5d2aa9a2-dfca-4afc-930b-d1c3cb57beef"
+      Hint: FeatureIconDark
+      Value: |
+        <Image mediaid="cca9534c-7b23-4da5-a360-601fe62b7cb6" alt="Icon of a tooth"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95e72b42-4db0-4ccd-be59-5dc21960c2b0"

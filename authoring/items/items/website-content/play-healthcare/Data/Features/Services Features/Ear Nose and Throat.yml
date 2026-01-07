@@ -1,0 +1,20 @@
+﻿---
+ID: "74864f86-ac72-41d3-92cf-4ee1e3f49c0a"
+Parent: "a7385f94-63e0-4e8b-83bb-7f83a6f10f82"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Services Features/Ear Nose and Throat"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0565239e-51cb-4c6c-b2a0-02620bd1b8ae"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Ear Nose & Throat
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4fe7d876-62c9-4ab6-a754-256209f04d3a"

@@ -1,0 +1,13 @@
+﻿---
+ID: "de3821eb-137f-4b59-87cd-b78a0a376add"
+Parent: "bc794cfd-6cf4-47b4-89d4-ecf172f24a3a"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/play/Components/HeroBanner/Rendering Parameters
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "64a9b157-489a-4f2e-89ed-bbb3693e5f84"

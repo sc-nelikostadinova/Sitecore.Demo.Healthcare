@@ -1,0 +1,26 @@
+﻿---
+ID: "0464689d-63b7-43c7-b9f1-e73cb165d546"
+Parent: "0c9f036c-dd4a-4541-9b5c-c005dca018dd"
+Template: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
+Path: /sitecore/system/Settings/Project/play/play /Add HeroBanners Data Item
+SharedFields:
+- ID: "52c91c75-6698-4701-a8a2-242ace59a8d6"
+  Hint: Location
+  Value: "{BA2F959D-A614-4C92-8B57-F1FC1A323ABE}"
+- ID: "7868e6bc-525c-4fce-ab8a-77da3e09b171"
+  Hint: Name
+  Value: HeroBanner
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "73eca331-f466-41f8-ba9c-72e8b894abe5"
+- ID: "e62c28f0-9d3b-46e2-8bec-a5e120542499"
+  Hint: Template
+  Value: "{166B589F-29F2-446D-ABCD-E7A323B269AA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32967b82-3128-422d-bf28-37210a712346"

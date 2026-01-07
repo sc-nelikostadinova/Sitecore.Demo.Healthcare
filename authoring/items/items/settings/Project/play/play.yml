@@ -1,0 +1,23 @@
+﻿---
+ID: "0c9f036c-dd4a-4541-9b5c-c005dca018dd"
+Parent: "bfda521a-4505-49c1-81e1-e3832beec581"
+Template: "bed31d6f-d968-45a9-b54e-12d7f977d861"
+Path: /sitecore/system/Settings/Project/play/play 
+SharedFields:
+- ID: "40deee2f-7595-40bd-b2c9-51f9e2346100"
+  Hint: Dependencies
+  Value: "{24EC97FA-F22A-404E-BC39-9B0673D46271}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fe01a178-cc27-4dd9-9d85-0a8c24be380e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0387113-1adb-434a-a21b-dc8fafcfedfa"
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: play

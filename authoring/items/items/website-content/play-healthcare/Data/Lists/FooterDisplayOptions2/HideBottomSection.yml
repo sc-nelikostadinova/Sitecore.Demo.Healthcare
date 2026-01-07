@@ -1,0 +1,13 @@
+﻿---
+ID: "e5e5e401-29e3-4a7e-8d7b-4a4d8f7d8865"
+Parent: "75aa0699-8904-45e7-ae71-0bed70548d9d"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/content/play/play-healthcare/Data/Lists/FooterDisplayOptions2/HideBottomSection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25b77502-e81d-4026-a3ef-0f23e3c09786"

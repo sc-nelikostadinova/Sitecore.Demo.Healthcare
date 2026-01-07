@@ -1,0 +1,13 @@
+﻿---
+ID: "b11dab3e-1419-4202-a5f7-170dc85268f0"
+Parent: "41bc4a7e-98d0-4c71-9886-cf5e45f921e4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/play/Components/ContentSection/Rendering Parameters/ContentSection Parameters/Visual Accents
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f54e451-c15e-40ab-ae06-c92b6fdddd0c"

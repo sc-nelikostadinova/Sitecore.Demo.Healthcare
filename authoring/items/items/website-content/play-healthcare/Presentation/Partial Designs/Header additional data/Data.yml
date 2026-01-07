@@ -1,0 +1,13 @@
+﻿---
+ID: "635d3dd8-8058-4782-bee3-da548e342064"
+Parent: "7fb6f6b0-0604-4cba-8713-d8e82da9b009"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Partial Designs/Header additional data/Data"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "649a7a10-4d7a-4b17-a89d-d17bdc3c9485"

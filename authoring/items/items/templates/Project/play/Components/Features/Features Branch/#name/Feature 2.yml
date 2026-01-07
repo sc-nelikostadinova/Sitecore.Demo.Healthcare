@@ -1,0 +1,13 @@
+﻿---
+ID: "edd40d94-d616-4090-bf60-131d30ded30f"
+Parent: "47c8a428-c250-48b9-abaa-c3bf09a41e0a"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: /sitecore/templates/Project/play/Components/Features/Features Branch/$name/Feature 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8182b27a-f9f8-4248-8946-b994febbd377"

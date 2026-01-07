@@ -1,0 +1,13 @@
+﻿---
+ID: "bd129fb1-ec68-444a-af37-deb864fc5ba9"
+Parent: "dbe457cf-9eb3-4a51-807b-dbbb5e2691b5"
+Template: "dbe457cf-9eb3-4a51-807b-dbbb5e2691b5"
+Path: /sitecore/templates/Project/play/Components/Doctors/Rendering Parameters/DoctorsListing Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fde02525-2bd5-43d6-b093-0414b538efa8"

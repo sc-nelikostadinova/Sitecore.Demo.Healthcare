@@ -1,0 +1,13 @@
+﻿---
+ID: "9717ba7c-06eb-4f5d-90c5-7013ef41ce66"
+Parent: "3bbdd00b-8665-4b5a-b700-46dbcad0c592"
+Template: "166b589f-29f2-446d-abcd-e7a323b269aa"
+Path: "/sitecore/content/play/play-healthcare/Data/Hero Banners"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fad3af14-c890-460c-afcd-09c78eb48432"

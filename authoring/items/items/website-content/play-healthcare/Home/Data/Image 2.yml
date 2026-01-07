@@ -1,0 +1,20 @@
+﻿---
+ID: "7a8af5a9-ab2b-4712-b356-b58f88dd1811"
+Parent: "0e63d3eb-f786-499a-8f8c-a8937bf151ee"
+Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Path: "/sitecore/content/play/play-healthcare/Home/Data/Image 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+      Hint: Image
+      Value: |
+        <image mediaid="3b7cf09f-6387-45ee-8373-4707ef7788c3" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1dec2c9-543b-4869-bd14-a9c17b740c19"

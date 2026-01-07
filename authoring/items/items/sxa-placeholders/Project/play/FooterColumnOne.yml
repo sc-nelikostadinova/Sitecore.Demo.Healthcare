@@ -1,0 +1,25 @@
+﻿---
+ID: "a4a87a64-33f0-4efd-b33d-ef8475efd6ca"
+Parent: "a87ca0d1-e7ee-44fa-a182-19723e88c19d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/play/FooterColumnOne
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "footer-column-one-{*}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d293c985-a5f5-42a8-958a-b5377a3d8cb6"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {4956263D-1195-4D6E-931B-800EA625FF6F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7d73e2b-4592-4bf8-9342-17718805b0cc"

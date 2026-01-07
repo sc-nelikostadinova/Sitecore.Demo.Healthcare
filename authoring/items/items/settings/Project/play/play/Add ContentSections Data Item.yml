@@ -1,0 +1,26 @@
+﻿---
+ID: "90212e4d-1e90-4c52-b4a1-44b03074a6ee"
+Parent: "0c9f036c-dd4a-4541-9b5c-c005dca018dd"
+Template: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
+Path: /sitecore/system/Settings/Project/play/play /Add ContentSections Data Item
+SharedFields:
+- ID: "52c91c75-6698-4701-a8a2-242ace59a8d6"
+  Hint: Location
+  Value: "{BA2F959D-A614-4C92-8B57-F1FC1A323ABE}"
+- ID: "7868e6bc-525c-4fce-ab8a-77da3e09b171"
+  Hint: Name
+  Value: ContentSection
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fe1dca0c-429a-48f3-80e2-9572c396bba1"
+- ID: "e62c28f0-9d3b-46e2-8bec-a5e120542499"
+  Hint: Template
+  Value: "{6B57C5F9-70F0-48C7-B9FC-57CBB59467AB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c71b8a0-2a01-4287-8c84-6e2130547cab"

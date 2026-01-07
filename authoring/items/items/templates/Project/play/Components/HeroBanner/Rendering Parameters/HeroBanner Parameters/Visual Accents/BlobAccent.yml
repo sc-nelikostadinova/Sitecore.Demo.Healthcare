@@ -1,0 +1,23 @@
+﻿---
+ID: "f9694e88-bcc1-41cd-814f-9f89c09cf808"
+Parent: "5d6e54ec-96ae-42c2-a0d9-c97a26f7542e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Components/HeroBanner/Rendering Parameters/HeroBanner Parameters/Visual Accents/BlobAccent
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3806b5a6-7ac4-47dd-b6cf-f469c4edf476"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf7b5a23-6f04-4388-acc4-d63cd5c4565a"

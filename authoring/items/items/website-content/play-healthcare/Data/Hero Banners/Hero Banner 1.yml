@@ -1,0 +1,20 @@
+﻿---
+ID: "fb81fd36-a0e9-49a4-a555-4ab48a2eda76"
+Parent: "9717ba7c-06eb-4f5d-90c5-7013ef41ce66"
+Template: "97c11946-48e2-4388-ad15-a69d083657db"
+Path: "/sitecore/content/play/play-healthcare/Data/Hero Banners/Hero Banner 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53dd8bb1-e902-4bbe-a44d-d5f4e83c30e4"
+    - ID: "a04d414b-1607-44bc-8214-16122ecd7614"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="b662eb5a-7f65-483f-8f9c-1c595f432f46" />

@@ -1,0 +1,13 @@
+﻿---
+ID: "2c0c7036-5225-4c27-b72a-ba201c107623"
+Parent: "819607af-c02d-4a30-b6a1-8ffc24335264"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Branches/Project/play/Default Header Variant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1e98d40-edcc-4d1f-871f-4379d04e3c56"

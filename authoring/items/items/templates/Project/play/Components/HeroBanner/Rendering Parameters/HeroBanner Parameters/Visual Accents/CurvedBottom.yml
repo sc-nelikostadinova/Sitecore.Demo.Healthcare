@@ -1,0 +1,23 @@
+﻿---
+ID: "a0f30479-6c5a-4206-a7b5-90837caf3069"
+Parent: "5d6e54ec-96ae-42c2-a0d9-c97a26f7542e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/play/Components/HeroBanner/Rendering Parameters/HeroBanner Parameters/Visual Accents/CurvedBottom
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2e823940-7b64-4513-980b-1cc0b8c356a3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21366bdc-ccfd-4088-a9c7-a70b6e17bb4e"

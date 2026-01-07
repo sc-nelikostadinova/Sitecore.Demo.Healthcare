@@ -1,0 +1,13 @@
+﻿---
+ID: "abb481bd-2ba7-4aae-9f4e-31ff8c58811b"
+Parent: "c5f93b76-90a7-45ba-9a39-36f0a3779ca2"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Headless Variants/DoctorsListing/Slider"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1b092ca-d339-4989-9cba-03fb20cd36c6"

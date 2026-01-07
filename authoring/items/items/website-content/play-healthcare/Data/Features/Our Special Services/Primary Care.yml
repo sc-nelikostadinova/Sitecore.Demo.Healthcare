@@ -1,0 +1,27 @@
+﻿---
+ID: "f1cf198d-df0d-4f2e-ac04-1d7dcae342ba"
+Parent: "a3a6d193-3c74-4c22-8ba0-1cf9c1ead4f0"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Our Special Services/Primary Care"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04b12693-fab9-4aac-8509-10c0cab37b5f"
+      Hint: FeatureDescription
+      Value: Be sure to
+    - ID: "4841f77f-0d1d-4f22-9282-fbc6673942b4"
+      Hint: FeatureIcon
+      Value: |
+        <Image mediaid="7ecd54e3-76fe-447e-a897-54ee369902f3" alt="Icon of an IV drip"/>
+    - ID: "5b0eb9a7-c2c0-4968-802f-a3769ffb1ab2"
+      Hint: FeatureHeading
+      Value: Health & Wellness
+    - ID: "5d2aa9a2-dfca-4afc-930b-d1c3cb57beef"
+      Hint: FeatureIconDark
+      Value: |
+        <Image mediaid="7ecd54e3-76fe-447e-a897-54ee369902f3" alt="Icon of an IV drip"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f72d8a71-33db-420b-b3ca-e6cf0e9dee79"

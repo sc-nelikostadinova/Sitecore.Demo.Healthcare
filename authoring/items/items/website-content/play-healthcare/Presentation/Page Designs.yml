@@ -1,0 +1,24 @@
+﻿---
+ID: "8cd13605-412f-42f0-82d7-8fd95a049fa2"
+Parent: "a18ea075-7661-42e7-84ee-6f19355d6985"
+Template: "74eede01-bb30-40aa-8c70-9773acdcaab9"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b4623A643-F780-474E-9951-EBC738C9A37E%7d%3d%257B50ECDCED-311A-423E-B683-ACC1DE517740%257D%26%7bDA9ECE73-7E8B-4438-877A-D6B0B9B45B77%7d%3d%257B550934F1-2069-4A64-98ED-EC26A08C7798%257D%26%7bCA16CC30-A7CE-4C21-9E7C-6023DD287F37%7d%3d%257BFD7B86EE-F490-4473-86DC-880C53B1F5E6%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a42da010-4060-4fe0-b579-22d2ef609f03"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3bf3a555-10fa-4df4-ad05-3c50cae07c70"

@@ -1,0 +1,24 @@
+﻿---
+ID: "b1263992-fb7f-4c42-9ab1-e552f0949c0a"
+Parent: "b4a5b1ea-8f4d-4c70-a298-9763f2116ec3"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Test Features with Three Items/Feature 2"
+BranchID: "2fc7612a-cda5-4ce4-a1bc-2dd5e65c67ab"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1cecaac6-7330-401e-a87a-3933be863954"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD40D94-D616-4090-BF60-131D30DED30F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "803fc319-6998-4da2-b133-f6bf4c298e7f"

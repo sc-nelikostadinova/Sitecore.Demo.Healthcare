@@ -4,7 +4,7 @@ import { ComponentProps } from 'react';
 import { renderStorybookPlaceholder } from 'src/stories/helpers/renderStorybookPlaceholder';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createImageField, createLinkField } from './helpers/createFields';
-import { ComponentFields } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 
 type StoryProps = ComponentProps<typeof Default>;
 

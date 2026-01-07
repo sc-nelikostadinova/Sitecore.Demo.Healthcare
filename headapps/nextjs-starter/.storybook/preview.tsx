@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/nextjs-vite';
-import { SitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { SitecoreProvider } from '@sitecore-content-sdk/nextjs';
 import { componentBuilder } from './mockData/mockComponentBuilder';
 import { mockLayoutData } from './mockData/mockLayoutData';
 
@@ -36,14 +36,14 @@ const preview: Preview = {
     }),
     (Story) => {
       return (
-        <SitecoreContext
-          componentFactory={componentBuilder.getComponentFactory({
+        <SitecoreProvider
+          componentMap={components.getComponentFactory({
             isEditing: false,
           })}
           layoutData={mockLayoutData}
         >
           <Story />
-        </SitecoreContext>
+        </SitecoreProvider>
       );
     },
   ],

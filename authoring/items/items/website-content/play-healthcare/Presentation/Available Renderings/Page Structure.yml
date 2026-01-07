@@ -1,0 +1,27 @@
+﻿---
+ID: "836f4304-2b6a-43b1-8e66-ba1550692f93"
+Parent: "bae4ad54-552f-40c7-8dd2-62b179443601"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Available Renderings/Page Structure"
+BranchID: "7f2cd90a-5812-48f4-a0d2-cbe2f7e5ca25"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}
+    {15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}
+    {5F6BF7C9-C80C-4BBD-AD78-8DA749B35206}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ab68d336-01f6-4afc-8686-7a000d89fed3"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5C3DAFA2-8F50-485F-ACB1-22E3A492E86D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6694d5b3-56e9-4583-9db8-80bdd20ec30b"

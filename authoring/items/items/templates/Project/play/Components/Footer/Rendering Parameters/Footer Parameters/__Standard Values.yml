@@ -1,0 +1,13 @@
+﻿---
+ID: "60928ece-3629-4fbe-870a-f963ca06d995"
+Parent: "b10abd1c-7f14-42f1-9a88-f2a6c4395d0a"
+Template: "b10abd1c-7f14-42f1-9a88-f2a6c4395d0a"
+Path: /sitecore/templates/Project/play/Components/Footer/Rendering Parameters/Footer Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a6ef221-e233-4024-9e8f-d5142c1151d6"

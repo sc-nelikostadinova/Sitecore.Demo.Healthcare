@@ -1,0 +1,13 @@
+﻿---
+ID: "7f5dac24-ab38-4ad4-afd4-6d43fd029f94"
+Parent: "bc1f86fa-645c-44ca-88db-2d8f80109f67"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Placeholder Settings/Partial Design"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb1a9205-0ecb-42e4-9f6c-49dd749e67bf"

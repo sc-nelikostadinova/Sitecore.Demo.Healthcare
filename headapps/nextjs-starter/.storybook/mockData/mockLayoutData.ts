@@ -1,4 +1,4 @@
-import { LayoutServicePageState } from '@sitecore-jss/sitecore-jss-nextjs';
+import { LayoutServicePageState } from '@sitecore-content-sdk/nextjs';
 
 export const mockLayoutData = {
   sitecore: {

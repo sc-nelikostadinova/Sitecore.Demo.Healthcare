@@ -1,0 +1,13 @@
+﻿---
+ID: "57920cfe-4303-446c-9ab7-ee9dcd557e38"
+Parent: "41bc4a7e-98d0-4c71-9886-cf5e45f921e4"
+Template: "41bc4a7e-98d0-4c71-9886-cf5e45f921e4"
+Path: /sitecore/templates/Project/play/Components/ContentSection/Rendering Parameters/ContentSection Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04900e9d-dc42-464f-a7f8-9c80f7023efb"

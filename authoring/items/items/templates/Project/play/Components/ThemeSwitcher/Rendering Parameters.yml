@@ -1,0 +1,13 @@
+﻿---
+ID: "e22f8bf4-cb38-4236-9801-abd54f9c508a"
+Parent: "48ee07eb-9673-4186-9261-483a5c5fa030"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/play/Components/ThemeSwitcher/Rendering Parameters
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8c18a03-f415-4a1b-a9ac-7a149a3d3c8b"

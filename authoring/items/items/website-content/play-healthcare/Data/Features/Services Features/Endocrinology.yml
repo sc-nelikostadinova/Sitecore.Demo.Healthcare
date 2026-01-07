@@ -1,0 +1,13 @@
+﻿---
+ID: "efab12ef-ede6-49a7-a444-3e1a2778635b"
+Parent: "a7385f94-63e0-4e8b-83bb-7f83a6f10f82"
+Template: "82ae79da-e060-41c7-b6ad-17f197f1ab56"
+Path: "/sitecore/content/play/play-healthcare/Data/Features/Services Features/Endocrinology"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27dbfaf9-993d-4ea4-a533-8b45a87e68a0"

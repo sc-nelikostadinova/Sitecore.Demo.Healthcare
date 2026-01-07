@@ -1,14 +1,14 @@
+import { JSX } from 'react';
 import Head from 'next/head';
 import {
-  GraphQLErrorPagesService,
-  SitecoreContext,
+  ErrorPagesService,
+  SitecoreProvider,
   ErrorPages,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import { SitecorePageProps } from 'lib/page-props';
+} from '@sitecore-content-sdk/nextjs';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import Layout from 'src/Layout';
-import { componentBuilder } from 'temp/componentBuilder';
+import components from '.sitecore/component-map';
 import { GetStaticProps } from 'next';
-import config from 'temp/config';
 import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 
@@ -34,21 +34,21 @@ const Custom500 = (props: SitecorePageProps): JSX.Element => {
   }
 
   return (
-    <SitecoreContext
-      componentFactory={componentBuilder.getComponentFactory()}
+    <SitecoreProvider
+      componentMap={components}
       layoutData={props.layoutData}
     >
-      <Layout layoutData={props.layoutData} headLinks={props.headLinks} />
-    </SitecoreContext>
+      <Layout layoutData={props.layoutData} />
+    </SitecoreProvider>
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getComponentServerProps: GetStaticProps = async (page) => {
   const site = siteResolver.getByName(config.sitecoreSiteName);
-  const errorPagesService = new GraphQLErrorPagesService({
+  const errorPagesService = new ErrorPagesService({
     clientFactory,
     siteName: site.name,
-    language: context.locale || context.defaultLocale || config.defaultLanguage,
+    language: page.locale || page.defaultLocale || page.defaultLanguage,
     retries:
       (process.env.GRAPH_QL_SERVICE_RETRIES &&
         parseInt(process.env.GRAPH_QL_SERVICE_RETRIES, 10)) ||
@@ -67,7 +67,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   return {
     props: {
-      headLinks: [],
       layoutData: resultErrorPages?.serverErrorPage?.rendered || null,
     },
   };

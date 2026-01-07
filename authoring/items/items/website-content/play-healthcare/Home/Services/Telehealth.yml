@@ -1,0 +1,24 @@
+﻿---
+ID: "76ea8cf1-b99b-4d00-95ba-1b66ad39eb9e"
+Parent: "8d8252c6-b93b-43a1-959d-7ab0ff749269"
+Template: "ca16cc30-a7ce-4c21-9e7c-6023dd287f37"
+Path: "/sitecore/content/play/play-healthcare/Home/Services/Telehealth"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{02E5EFB5-DAB7-4D07-B8B2-26E41AD85736}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Telehealth
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8c3a34a-d358-4d1c-854a-bd644ce00e7c"
+    - ID: "d20f2456-571f-4627-a8b6-3abe74364503"
+      Hint: Title
+      Value: Telehealth

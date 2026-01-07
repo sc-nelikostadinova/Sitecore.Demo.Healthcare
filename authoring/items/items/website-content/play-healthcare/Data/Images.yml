@@ -1,0 +1,13 @@
+﻿---
+ID: "171bc1bc-fa73-464f-9c7f-4f1aeddd5efa"
+Parent: "3bbdd00b-8665-4b5a-b700-46dbcad0c592"
+Template: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Path: "/sitecore/content/play/play-healthcare/Data/Images"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbeaf671-ae7c-4ef0-b95b-eae184af8e1e"

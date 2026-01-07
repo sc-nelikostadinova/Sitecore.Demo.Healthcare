@@ -1,12 +1,12 @@
-import config from 'temp/config';
+import { JSX } from 'react';
 import {
-  GraphQLErrorPagesService,
-  SitecoreContext,
+  ErrorPagesService,
+  SitecoreProvider,
   ErrorPages,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import { SitecorePageProps } from 'lib/page-props';
+} from '@sitecore-content-sdk/nextjs';
+import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import NotFound from 'src/NotFound';
-import { componentBuilder } from 'temp/componentBuilder';
+import components from '.sitecore/component-map';
 import Layout from 'src/Layout';
 import { GetStaticProps } from 'next';
 import { siteResolver } from 'lib/site-resolver';
@@ -18,18 +18,18 @@ const Custom404 = (props: SitecorePageProps): JSX.Element => {
   }
 
   return (
-    <SitecoreContext
-      componentFactory={componentBuilder.getComponentFactory()}
+    <SitecoreProvider
+      componentMap={components}
       layoutData={props.layoutData}
     >
-      <Layout layoutData={props.layoutData} headLinks={props.headLinks} />
-    </SitecoreContext>
+      <Layout layoutData={props.layoutData} />
+    </SitecoreProvider>
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getComponentServerProps: GetStaticProps = async (context) => {
   const site = siteResolver.getByName(config.sitecoreSiteName);
-  const errorPagesService = new GraphQLErrorPagesService({
+  const errorPagesService = new ErrorPagesService({
     clientFactory,
     siteName: site.name,
     language: context.locale || config.defaultLanguage,
@@ -51,7 +51,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   return {
     props: {
-      headLinks: [],
       layoutData: resultErrorPages?.notFoundPage?.rendered || null,
     },
   };

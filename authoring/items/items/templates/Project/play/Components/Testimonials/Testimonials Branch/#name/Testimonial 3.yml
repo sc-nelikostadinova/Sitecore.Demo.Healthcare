@@ -1,0 +1,13 @@
+﻿---
+ID: "92167f94-6da1-43b6-ada4-ea0c3d9c6d6c"
+Parent: "b2db5945-f630-491a-8af6-84ff74de0c87"
+Template: "8f3930e2-0797-44d9-9124-c49c6fff7cec"
+Path: /sitecore/templates/Project/play/Components/Testimonials/Testimonials Branch/$name/Testimonial 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a24cbb56-b1df-41e8-b92e-6f01d659fa1f"

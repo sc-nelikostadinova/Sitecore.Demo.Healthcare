@@ -1,0 +1,13 @@
+﻿---
+ID: "bd7207f9-b170-48a5-a36c-c506fdb1956a"
+Parent: "b924479b-7594-41c6-b3a8-ffee296d497f"
+Template: "0a92feee-0e15-4e81-b044-2ad901b88ddd"
+Path: "/sitecore/content/play/play-healthcare/Data/Lists/TestEnums"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30c9d8b8-391d-41be-bf4e-9da2582c6415"

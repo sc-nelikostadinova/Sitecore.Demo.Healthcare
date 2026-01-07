@@ -1,0 +1,13 @@
+﻿---
+ID: "c5f93b76-90a7-45ba-9a39-36f0a3779ca2"
+Parent: "b2d61c68-67c0-46a9-87be-7f976565144b"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Headless Variants/DoctorsListing"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54db418c-154a-4ac9-b3e2-8d001b9e7ea5"

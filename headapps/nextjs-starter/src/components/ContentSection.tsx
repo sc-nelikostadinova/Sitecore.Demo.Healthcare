@@ -1,5 +1,6 @@
 'use client';
 
+import { JSX } from 'react';
 import {
   Text as JssText,
   RichText as JssRichText,
@@ -9,7 +10,7 @@ import {
   RichTextField,
   Field,
   Placeholder,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { isEnabled } from 'src/helpers/isEnabled';
 import BlobAccent from './shapes/BlobAccent';
 import CurvedClip from './shapes/CurvedClip';

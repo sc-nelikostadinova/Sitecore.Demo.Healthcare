@@ -1,0 +1,20 @@
+﻿---
+ID: "04e94c8d-8017-4484-a4f5-d6565a756287"
+Parent: "7f5dac24-ab38-4ad4-afd4-6d43fd029f94"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/play/play-healthcare/Presentation/Placeholder Settings/Partial Design/Services"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-services"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fda31518-1249-4708-99d0-6a2b4540e7ac"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a25fa1a-c2d4-4526-9efd-c997b3e1a60f"
